@@ -137,4 +137,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
+  - enabled: 1
+    path: Assets/MtlGame/Level/Scenes/MainMenu.unity
+    guid: c567e16f6da0cb149af97f8178b557d7
+  - enabled: 1
+    path: Assets/MtlGame/Level/Scenes/DesignScene.unity
+    guid: dc13e248252a1ef4fb5101b5363c8a97
   m_configObjects: {}
