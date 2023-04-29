@@ -2545,6 +2545,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &324584341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2619,6 +2620,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &324584342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5353,6 +5355,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &684557548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5427,6 +5430,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &684557549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5827,6 +5831,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &726089918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5901,6 +5906,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &726089919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7627,6 +7633,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &890047934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7701,6 +7708,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &890047935
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8176,6 +8184,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &938941789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8250,6 +8259,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &938941790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10006,6 +10016,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &1072348510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10080,6 +10091,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &1072348511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10596,11 +10608,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.02
+      value: 14.753334
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.95
+      value: -24.880001
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10639,17 +10651,17 @@ PrefabInstance:
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.027777778
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.16666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.16666666
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20803883043551940, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -10679,7 +10691,7 @@ PrefabInstance:
     - target: {fileID: 20803883043551940, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99920225
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20803883043551940, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -15718,6 +15730,7 @@ MonoBehaviour:
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 0
+  _pickOnEnter: 0
 --- !u!114 &1668026617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15792,6 +15805,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  ActivateOnCollide: 0
 --- !u!61 &1668026618
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17312,12 +17326,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aacd7de6209c264a931cdfb2ef9e7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  home1: {fileID: 726089920}
-  home2: {fileID: 1072348512}
-  home3: {fileID: 938941791}
-  home4: {fileID: 1668026619}
-  home5: {fileID: 324584343}
-  home6: {fileID: 890047936}
+  homes:
+  - {fileID: 726089920}
+  - {fileID: 1072348512}
+  - {fileID: 938941791}
+  - {fileID: 1668026619}
+  - {fileID: 324584343}
+  - {fileID: 890047936}
 --- !u!4 &1828002085
 Transform:
   m_ObjectHideFlags: 0

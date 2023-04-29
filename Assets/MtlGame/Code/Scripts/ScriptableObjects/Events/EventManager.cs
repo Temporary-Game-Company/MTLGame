@@ -5,13 +5,9 @@ using System.Runtime;
 public class NewBehaviourScript : MonoBehaviour
 {
     private float infectionRate=120f;
-    public Home home1;
-    public Home home2;
-    public Home home3;
-    public Home home4;
-    public Home home5;
-    public Home home6;
-    List<Home> unInfectedHomes;
+
+    [SerializeField] List<Home> homes;
+    List<Home> unInfectedHomes = new List<Home>();
     // Start is called before the first frame update
     void Start()
     {
@@ -37,34 +33,14 @@ public class NewBehaviourScript : MonoBehaviour
 
     void checkUnInfectedHomes(){
          unInfectedHomes = new List<Home>();
-        if (!home1.isInfected()&&home1.isAlive())
-        {
-            unInfectedHomes.Add(home1);
-        }
 
-        if (!home2.isInfected()&&home2.isAlive())
+         foreach (var home in homes)
         {
-            unInfectedHomes.Add(home2);
+            if (!home.isInfected()&&home.isAlive())
+            {
+               unInfectedHomes.Add(home);
+            }
         }
-
-        if (!home3.isInfected()&&home3.isAlive())
-        {
-            unInfectedHomes.Add(home3);
-        }
-
-        if (!home4.isInfected()&&home4.isAlive())
-        {
-            unInfectedHomes.Add(home4);
-        }
-
-        if (!home5.isInfected()&&home5.isAlive())
-        {
-            unInfectedHomes.Add(home5);
-        }
-
-        if (!home6.isInfected()&&home6.isAlive())
-        {
-            unInfectedHomes.Add(home6);
-        }
+       
     }
 }
