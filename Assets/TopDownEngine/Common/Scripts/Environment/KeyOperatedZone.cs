@@ -28,6 +28,10 @@ namespace MoreMountains.TopDownEngine
 		protected GameObject _collidingObject;
 		protected List<int> _keyList;
 
+		
+		[Tooltip("Whether the door is activated on trigger enter.")]
+		[SerializeField] private bool ActivateOnCollide;
+
 		/// <summary>
 		/// On Start we initialize our object
 		/// </summary>
@@ -43,13 +47,13 @@ namespace MoreMountains.TopDownEngine
 		protected override void OnTriggerEnter2D(Collider2D collider)
 		{
 			_collidingObject = collider.gameObject;
-			base.OnTriggerEnter2D (collider);
+			if (ActivateOnCollide) base.OnTriggerEnter2D (collider);
 		}
 
 		protected override void OnTriggerEnter(Collider collider)
 		{
 			_collidingObject = collider.gameObject;
-			base.OnTriggerEnter(collider);
+			if (ActivateOnCollide) base.OnTriggerEnter (collider);
 		}
 
 		/// <summary>

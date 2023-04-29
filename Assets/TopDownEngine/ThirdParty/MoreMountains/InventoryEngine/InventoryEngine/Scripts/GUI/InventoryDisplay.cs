@@ -43,7 +43,7 @@ namespace MoreMountains.InventoryEngine
 				{
 					foreach (Inventory inventory in UnityEngine.Object.FindObjectsOfType<Inventory>())
 					{
-						if ((inventory.name == TargetInventoryName) && (inventory.PlayerID == PlayerID))
+						if ((inventory.name.Equals(TargetInventoryName)) && (inventory.PlayerID == PlayerID))
 						{
 							_targetInventory = inventory;
 						}

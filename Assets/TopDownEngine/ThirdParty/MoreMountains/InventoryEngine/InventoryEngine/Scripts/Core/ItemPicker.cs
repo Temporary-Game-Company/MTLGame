@@ -29,6 +29,8 @@ namespace MoreMountains.InventoryEngine
 
 		protected Inventory _targetInventory;
 
+		[SerializeField] private bool _pickOnEnter;
+
 		/// <summary>
 		/// On Start we initialize our item picker
 		/// </summary>
@@ -73,7 +75,7 @@ namespace MoreMountains.InventoryEngine
 				playerID = identifier.PlayerID;
 			}
 
-			Pick(Item.TargetInventoryName, playerID);
+			if (_pickOnEnter) Pick(Item.TargetInventoryName, playerID);
 		}
 
 		/// <summary>
@@ -95,7 +97,7 @@ namespace MoreMountains.InventoryEngine
 				playerID = identifier.PlayerID;
 			}
 
-			Pick(Item.TargetInventoryName, playerID);
+			if (_pickOnEnter) Pick(Item.TargetInventoryName, playerID);
 		}		
 
 		/// <summary>

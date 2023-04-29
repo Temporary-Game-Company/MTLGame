@@ -804,6 +804,7 @@ namespace MoreMountains.InventoryEngine
 				MMInventoryEvent.Trigger(MMInventoryEventType.Error, slot, this.name, null, 0, index, PlayerID);
 				return;
 			}
+			Debug.Log("Reached");
 			item.SpawnPrefab(PlayerID);
             
 			if (this.name == item.TargetEquipmentInventoryName)

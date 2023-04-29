@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
   m_Name: Remedy
   m_EditorClassIdentifier: 
-  ItemID: 
+  ItemID: Base_Remedy
   TargetInventoryName: HoldingSlot
   ForceSlotIndex: 0
   TargetIndex: 0
@@ -35,8 +35,8 @@ MonoBehaviour:
   ItemName: 
   ShortDescription: 
   Description: 
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  Icon: {fileID: 21300000, guid: bae61d10d2c002f4cb905e0d07d190ce, type: 3}
+  Prefab: {fileID: 8817093793805760462, guid: 21deb0b280df294449da0bf0fa414ab4, type: 3}
   DropProperties:
     Shape: 0
     NormalToSpawnPlane: {x: 0, y: 1, z: 0}
