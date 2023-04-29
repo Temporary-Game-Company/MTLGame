@@ -28,6 +28,7 @@ public class Door : MonoBehaviour
         if(playerIsNearDoor&&Input.GetKey(KeyCode.F)){
             // Check if ingridient is correct
             // then call cure function
+            home.cure();
         }
     }
 }
