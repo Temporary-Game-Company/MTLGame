@@ -188,6 +188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToRescue: 100
+  _possibleRemedies: {fileID: 11400000, guid: 5bd8a006f9201f84ca49c01137674602, type: 2}
+  _playerInventory: {fileID: 0}
 --- !u!1 &5421326874161010097
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,4 +490,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103fd3b428427564796922dce0903d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  home: {fileID: 0}
+  home: {fileID: 5421326874131907542}
