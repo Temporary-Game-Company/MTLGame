@@ -6,7 +6,10 @@ public class MainMenu : MonoBehaviour
 {
     public Button startButton;
     public Button quitButton;
-    public Button optionsButton;
+    // public Button optionsButton;
+
+    public Texture2D cursorDefault;
+
 
 
     void Start()
@@ -15,18 +18,22 @@ public class MainMenu : MonoBehaviour
         startButton.onClick.AddListener(StartGame);
 
         // Add Event to Option
-        optionsButton.onClick.AddListener(ShowOptions);
+        // optionsButton.onClick.AddListener(ShowOptions);
 
         // Add Event to Quit the game
         quitButton.onClick.AddListener(QuitGame);
 
+
         
     }
+
 
     void StartGame()
     {
         // Load the game
-        SceneManager.LoadScene("DesignScene");
+        SceneManager.LoadScene("Loading");
+        Cursor.SetCursor(cursorDefault, Vector2.zero, CursorMode.Auto);
+
     }
 
      void ShowOptions()

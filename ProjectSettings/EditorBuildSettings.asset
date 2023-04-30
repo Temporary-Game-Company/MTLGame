@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/TopDownEngine/Demos/StartScreen/StartScreen.unity
     guid: 52360e1567e3fee418407abdfd132d73
   - enabled: 1
-    path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    path: Assets/MtlGame/Level/Scenes/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 1
     path: Assets/TopDownEngine/Demos/LevelSelection/LevelSelection.unity
@@ -143,4 +143,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MtlGame/Level/Scenes/DesignScene.unity
     guid: dc13e248252a1ef4fb5101b5363c8a97
+  - enabled: 1
+    path: Assets/MtlGame/Level/Scenes/[Depreciated] Loading.unity
+    guid: 43ef7b621d816d64ab10cfcdfebf2397
+  - enabled: 1
+    path: Assets/MtlGame/Level/Scenes/BaptisteDesignScene.unity
+    guid: eda36f9504df14e4a92ece4cda485bd4
   m_configObjects: {}
