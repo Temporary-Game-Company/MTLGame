@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a3616e2a215b0542a35ee38b9f03a039
     GuidInternal: 
-    m_lastTime: -8585187324124762545
+    m_lastTime: -8585187285503449228
     List:
+    - name: Pause_Music
+      guid: ff6d6af498152b49a795d3a374b8e322
+      id: 2735935537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Pause_Music
+        ObjectType: 3
+        guid: ff6d6af498152b49a795d3a374b8e322
+      Path: Events/Default Work Unit/Pause_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambiances
       guid: a50d0bd16c213444a930d5eadaf1150a
       id: 1193561773
@@ -416,6 +433,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6830e76c2aa2654881a15e11378776df
       Path: Events/Default Work Unit/Play_SFX_VillagerHey
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Resume_Music
+      guid: ac49f2c96be13e4fba7a73e8e896a353
+      id: 2940177080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Resume_Music
+        ObjectType: 3
+        guid: ac49f2c96be13e4fba7a73e8e896a353
+      Path: Events/Default Work Unit/Resume_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
