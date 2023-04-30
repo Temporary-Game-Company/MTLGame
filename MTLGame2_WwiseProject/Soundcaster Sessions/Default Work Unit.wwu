@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53281867-8692-4003-A5BC-921BDDB6890F}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{53281867-8692-4003-A5BC-921BDDB6890F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcast" ID="{1CAC6272-5E5C-48F9-AACC-7B2E239BD778}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_SFX_BellRinging" ID="{AAC5AEDF-08B5-41DC-82CA-B9316C5CBB2B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

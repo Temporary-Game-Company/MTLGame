@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_BellRinging" ID="{AAC5AEDF-08B5-41DC-82CA-B9316C5CBB2B}">
+					<ChildrenList>
+						<Action Name="" ID="{4ED67ED9-D1CF-4F5D-B191-C94BAAF9ADAE}" ShortID="126224130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_BellRinging" ID="{83B46813-A11C-40DB-AFAD-A474206611EB}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
