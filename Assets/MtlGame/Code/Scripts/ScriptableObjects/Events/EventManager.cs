@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime;
-public class NewBehaviourScript : MonoBehaviour
+public class EventManager : MonoBehaviour
 {
-    private float infectionRate=120f;
+    [SerializeField] private float _timeToFirstInfection = 5f;
+    [SerializeField] private float infectionRate = 120f;
+
+    private float _timeToInfection;
 
     [SerializeField] List<Home> homes;
     List<Home> unInfectedHomes = new List<Home>();
@@ -12,6 +15,8 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         unInfectedHomes = new List<Home>();
+
+        _timeToInfection = _timeToFirstInfection;
     }
 
     // Update is called once per frame
@@ -21,13 +26,13 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     void infectHouseRandomly(){
-        infectionRate -=1*Time.deltaTime;
-        if(infectionRate<0){
+        _timeToInfection -=1*Time.deltaTime;
+        if(_timeToInfection<0){
             checkUnInfectedHomes();
             int numberOfavailableHomes = unInfectedHomes.Count;
             int selectedHome   = Random.Range(0,numberOfavailableHomes); 
             unInfectedHomes[selectedHome].infectHome();
-            infectionRate = 120f;
+            _timeToInfection = infectionRate;
         }
     }
 

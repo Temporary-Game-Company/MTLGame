@@ -17,6 +17,12 @@ public class Home : MonoBehaviour
     [Tooltip("The inventory to check for the remedy.")]
     [SerializeField] private Inventory _playerInventory;
 
+
+    [Tooltip("The indicator for when sick.")]
+    [SerializeField] private HelpIndicator _helpIndicataor;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,11 +62,16 @@ public class Home : MonoBehaviour
 
     public void infectHome(){
         infectionStatus = true;
+        
+        SetRemedy();
+        _helpIndicataor.HelpNeeded(_remedyNeeded.Icon);
     }
 
     public void disinfectHome()
     {
         infectionStatus = false;
+
+        _helpIndicataor.Cured();
     }
 
     // Sets a random remedy needed 
@@ -71,6 +82,7 @@ public class Home : MonoBehaviour
     }
 
     public void cure(){
+        Debug.Log("Reached");
         InventoryItem playerItem = _playerInventory.Content[0];
 
         if(playerItem.Equals(_remedyNeeded) && liveStatus && infectionStatus){
