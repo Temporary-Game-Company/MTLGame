@@ -47,28 +47,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_AMB_Aerial_v01a" ID="{8F0A1502-9DC0-40C5-97EC-DB1B36D21B30}">
-					<ChildrenList>
-						<Action Name="" ID="{9B3B427C-5874-4FA5-8401-C763D5BB0AF3}" ShortID="728016913">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Aerial_v01a" ID="{9A3D61C8-49FC-4043-8006-6F49E29506B3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Amb_Loop01" ID="{6CE5D7AC-1D7D-4B5A-BC65-14C518F43516}">
-					<ChildrenList>
-						<Action Name="" ID="{0A2F9134-3304-44BA-B6D7-8D67710C60BC}" ShortID="137413580">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Loop01" ID="{9ED84FFC-9EA5-473E-BA70-A5A0D8AFC039}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}">
 					<ChildrenList>
 						<Action Name="" ID="{4EEDC887-F2C1-4C73-AF71-E51D4E9B2B17}" ShortID="147645996">
@@ -108,6 +86,24 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_LiquidPouring" ID="{EEE09DF6-218D-4521-BE40-A75D57DE196C}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiances" ID="{D10B0DA5-216C-4434-A930-D5EADAF1150A}">
+					<ChildrenList>
+						<Action Name="" ID="{590E199C-5BB6-40A9-ADFD-0CF99005D4CF}" ShortID="626964014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Aerial_v01a" ID="{9A3D61C8-49FC-4043-8006-6F49E29506B3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E898748-FA85-4AC6-9CA0-9238F4A6314A}" ShortID="1027603609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Loop01" ID="{9ED84FFC-9EA5-473E-BA70-A5A0D8AFC039}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

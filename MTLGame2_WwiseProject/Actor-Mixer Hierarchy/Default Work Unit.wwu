@@ -34,6 +34,8 @@
 				</Sound>
 				<RandomSequenceContainer Name="Music" ID="{E97997AD-D409-477B-892E-559E4A973AC3}" ShortID="1488821">
 					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -72,9 +74,40 @@
 								<ActiveSource Name="GloomTown02" ID="{FAA8C303-3A8F-41A2-8453-8A5F15AF12BC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="PlaguePlease_v02" ID="{5E90F7EA-B364-4DB4-B6EB-EB01F2C97BA1}" ShortID="474225397">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlaguePlease_v02" ID="{5429B8B1-1A91-4E25-A6D8-50528B806C91}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1837.587"/>
+										<Property Name="LoopBegin" Type="Real64" Value="8.64494100078727"/>
+										<Property Name="LoopEnd" Type="Real64" Value="109.003311016059"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PlaguePlease_v02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="873847301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlaguePlease_v02" ID="{5429B8B1-1A91-4E25-A6D8-50528B806C91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<Playlist>
-						<ItemRef Name="GloomTown02" ID="{D90ED65C-1CF9-4A4E-AABF-C65B6044AD80}"/>
+						<ItemRef Name="PlaguePlease_v02" ID="{5E90F7EA-B364-4DB4-B6EB-EB01F2C97BA1}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Footsteps" ID="{37E6D8AE-4367-4CDA-B6C0-BADADCEC2DF3}" ShortID="1055772331">

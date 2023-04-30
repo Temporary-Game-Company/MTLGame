@@ -30,16 +30,8 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_AMB_Aerial_v01a" ID="{8F0A1502-9DC0-40C5-97EC-DB1B36D21B30}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Amb_Loop01" ID="{6CE5D7AC-1D7D-4B5A-BC65-14C518F43516}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
-							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
