@@ -96,14 +96,7 @@
 						<Action Name="" ID="{590E199C-5BB6-40A9-ADFD-0CF99005D4CF}" ShortID="626964014">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Aerial_v01a" ID="{9A3D61C8-49FC-4043-8006-6F49E29506B3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5E898748-FA85-4AC6-9CA0-9238F4A6314A}" ShortID="1027603609">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Loop01" ID="{9ED84FFC-9EA5-473E-BA70-A5A0D8AFC039}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+									<ObjectRef Name="NewAmb" ID="{6F423B67-F622-4448-A613-6728419B477A}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -209,7 +202,48 @@
 						<Action Name="" ID="{BD43B1FC-1E4F-43F2-A2A2-8FEF5FD584EA}" ShortID="922156176">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_VillagerCured" ID="{D0F93674-E273-4A99-B581-EDC6C262E48B}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+									<ObjectRef Name="VillagerCured" ID="{26B3CAB9-FD1C-45A8-BD35-92178370DEDA}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuMusic" ID="{B344E432-CF91-4D38-87F5-EB82B0F3E1C3}">
+					<ChildrenList>
+						<Action Name="" ID="{660F1547-ADC1-46EF-A8BB-8B2B41762C68}" ShortID="288939674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuMusic" ID="{CEF688B4-F2DA-4EAA-9305-F7E8432472D0}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Music" ID="{F46A6DFF-1598-492B-A795-D3A374B8E322}">
+					<ChildrenList>
+						<Action Name="" ID="{2915A037-2F14-49D3-9607-E9A95CE14921}" ShortID="765684475">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E97997AD-D409-477B-892E-559E4A973AC3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Music" ID="{C9F249AC-E16B-4F3E-BA7A-73E8E896A353}">
+					<ChildrenList>
+						<Action Name="" ID="{FA69644B-7D85-4B3E-97EA-056067F49469}" ShortID="250422745">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E97997AD-D409-477B-892E-559E4A973AC3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

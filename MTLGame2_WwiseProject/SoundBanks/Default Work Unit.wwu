@@ -6,8 +6,11 @@
 				<SoundBank Name="SBBank" ID="{25AA78A4-87DF-4A3C-A2F6-53CA84D8E011}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_SFX_BellRinging" ID="{AAC5AEDF-08B5-41DC-82CA-B9316C5CBB2B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuMusic" ID="{B344E432-CF91-4D38-87F5-EB82B0F3E1C3}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuMusic" ID="{CEF688B4-F2DA-4EAA-9305-F7E8432472D0}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

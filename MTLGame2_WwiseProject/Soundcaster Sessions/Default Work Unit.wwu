@@ -70,6 +70,10 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_MenuMusic" ID="{B344E432-CF91-4D38-87F5-EB82B0F3E1C3}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="3" Y="1"/>
 						</Module>

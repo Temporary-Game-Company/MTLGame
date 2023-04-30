@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{883F7FA7-35D9-7423-9A00-7A3A238D59F3}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{40C8397E-0190-03C0-D492-A88DAA890A2F}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
@@ -29,6 +29,10 @@
 					<ShortName>SFX_Sniff02.wav</ShortName>
 					<CachePath>SFX/SFX_Sniff02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="95563262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal04.wav</ShortName>
+					<CachePath>SFX/Heal04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="106889602" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_FryingFood01.wav</ShortName>
 					<CachePath>SFX/SFX_FryingFood01_10C4C929.wem</CachePath>
@@ -45,6 +49,10 @@
 					<ShortName>SFX_VillagerHey01.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="289082214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal07.wav</ShortName>
+					<CachePath>SFX/Heal07_10C4C929.wem</CachePath>
+				</File>
 				<File Id="297426163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Leech01.wav</ShortName>
 					<CachePath>SFX/SFX_Leech01_10C4C929.wem</CachePath>
@@ -59,7 +67,11 @@
 				</File>
 				<File Id="333839857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Loop01.wav</ShortName>
-					<CachePath>SFX/Amb_Loop01_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Amb_Loop01_5AD0E3EC.wem</CachePath>
+				</File>
+				<File Id="366272120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal05.wav</ShortName>
+					<CachePath>SFX/Heal05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="392596253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey08.wav</ShortName>
@@ -81,10 +93,6 @@
 					<ShortName>SFX_VillagerHey06.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="498864994" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_VillagerCured.wav</ShortName>
-					<CachePath>SFX/SFX_VillagerCured_10C4C929.wem</CachePath>
-				</File>
 				<File Id="499401325" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Leech03.wav</ShortName>
 					<CachePath>SFX/SFX_Leech03_10C4C929.wem</CachePath>
@@ -97,9 +105,21 @@
 					<ShortName>SFX_BellRinging.wav</ShortName>
 					<CachePath>SFX/SFX_BellRinging_10C4C929.wem</CachePath>
 				</File>
+				<File Id="544028195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal03.wav</ShortName>
+					<CachePath>SFX/Heal03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="570606161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal12.wav</ShortName>
+					<CachePath>SFX/Heal12_10C4C929.wem</CachePath>
+				</File>
 				<File Id="586839752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chicken04.wav</ShortName>
 					<CachePath>SFX/SFX_Chicken04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="614277753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal02.wav</ShortName>
+					<CachePath>SFX/Heal02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="616493768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Sniff03.wav</ShortName>
@@ -117,6 +137,14 @@
 					<ShortName>SFX_VillagerHey03.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="721140181" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal10.wav</ShortName>
+					<CachePath>SFX/Heal10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="727364463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal01.wav</ShortName>
+					<CachePath>SFX/Heal01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="735011620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_01.wav</ShortName>
 					<CachePath>SFX/FS_Dirt_01_10C4C929.wem</CachePath>
@@ -128,6 +156,10 @@
 				<File Id="755769483" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_ButtonClick.wav</ShortName>
 					<CachePath>SFX/SFX_ButtonClick_10C4C929.wem</CachePath>
+				</File>
+				<File Id="783050804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NewAmb.wav</ShortName>
+					<CachePath>SFX/NewAmb_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="802140775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey07.wav</ShortName>
@@ -156,6 +188,10 @@
 				<File Id="860551974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey09.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="870116243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal06.wav</ShortName>
+					<CachePath>SFX/Heal06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="873847301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlaguePlease_v02.wav</ShortName>
@@ -189,9 +225,21 @@
 					<ShortName>MenuLoop.wav</ShortName>
 					<CachePath>SFX/MenuLoop_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="986601143" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal09.wav</ShortName>
+					<CachePath>SFX/Heal09_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1017560216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Aerial_v01a.wav</ShortName>
-					<CachePath>SFX/AMB_Aerial_v01a_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Aerial_v01a_E4539281.wem</CachePath>
+				</File>
+				<File Id="1039244776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal11.wav</ShortName>
+					<CachePath>SFX/Heal11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042082823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heal08.wav</ShortName>
+					<CachePath>SFX/Heal08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1051148966" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Snip02.wav</ShortName>
@@ -207,10 +255,15 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2735935537" Name="Pause_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="851125579"/>
+						<MediaRef Id="873847301"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1193561773" Name="Play_Ambiances" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="333839857"/>
-						<MediaRef Id="1017560216"/>
+						<MediaRef Id="783050804"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.40417233" DurationMax="0.49170068">
@@ -219,6 +272,11 @@
 						<MediaRef Id="617972286"/>
 						<MediaRef Id="735011620"/>
 						<MediaRef Id="958897491"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2570041344" Name="Play_MenuMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="968152764"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
@@ -303,9 +361,20 @@
 						<MediaRef Id="1068690051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="723141557" Name="Play_SFX_VillagerCured" DurationType="OneShot" DurationMin="2.75" DurationMax="2.75">
+				<Event Id="723141557" Name="Play_SFX_VillagerCured" DurationType="OneShot" DurationMin="2.2291837" DurationMax="2.2291837">
 					<MediaRefs>
-						<MediaRef Id="498864994"/>
+						<MediaRef Id="95563262"/>
+						<MediaRef Id="289082214"/>
+						<MediaRef Id="366272120"/>
+						<MediaRef Id="544028195"/>
+						<MediaRef Id="570606161"/>
+						<MediaRef Id="614277753"/>
+						<MediaRef Id="721140181"/>
+						<MediaRef Id="727364463"/>
+						<MediaRef Id="870116243"/>
+						<MediaRef Id="986601143"/>
+						<MediaRef Id="1039244776"/>
+						<MediaRef Id="1042082823"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="857508468" Name="Play_SFX_VillagerGotSick" DurationType="OneShot" DurationMin="2.75" DurationMax="2.75">
@@ -335,6 +404,12 @@
 						<MediaRef Id="913827179"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2940177080" Name="Resume_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="851125579"/>
+						<MediaRef Id="873847301"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
@@ -351,5 +426,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9C0EFD69-7AD2-072C-739E-ABDAA04399BE}</FileHash>
+	<FileHash>{B4217FFB-21D2-952A-F102-8C55BECD7FBF}</FileHash>
 </SoundBanksInfo>

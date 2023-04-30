@@ -13,8 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PAUSE_MUSIC = 2735935537U;
         static const AkUniqueID PLAY_AMBIANCES = 1193561773U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_MENUMUSIC = 2570041344U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_RATS = 2385941226U;
@@ -31,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_VILLAGERCURED = 723141557U;
         static const AkUniqueID PLAY_SFX_VILLAGERGOTSICK = 857508468U;
         static const AkUniqueID PLAY_SFX_VILLAGERHEY = 3992128610U;
+        static const AkUniqueID RESUME_MUSIC = 2940177080U;
     } // namespace EVENTS
 
     namespace BANKS
