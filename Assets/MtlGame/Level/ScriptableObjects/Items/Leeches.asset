@@ -36,7 +36,7 @@ MonoBehaviour:
   ShortDescription: 
   Description: 
   Icon: {fileID: 1826123129, guid: dea77ffe2991f574b8c4bdaef929f4f1, type: 3}
-  Prefab: {fileID: 8817093793805760462, guid: 322e7e2bb1b87ea42a49e8dfec47fbd1, type: 3}
+  Prefab: {fileID: 8817093793805760462, guid: ddec2bffdd877c143bfdf61e45fa4beb, type: 3}
   DropProperties:
     Shape: 0
     NormalToSpawnPlane: {x: 0, y: 1, z: 0}
