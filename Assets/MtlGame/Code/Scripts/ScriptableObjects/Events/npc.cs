@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class npc : MonoBehaviour
 {
+    [SerializeField] Animator _animator;
+
     GameObject finalDestination=null;
     private int middleStepPassed=0;
     public bool active=false;
@@ -20,6 +22,7 @@ public class npc : MonoBehaviour
         }
     }
 
+    Vector2 Difference;
     // Update is called once per frame
     void Update()
     {   
@@ -28,18 +31,21 @@ public class npc : MonoBehaviour
                 GameObject mDestination=GameObject.Find("g"+middleNodes[middleStepPassed]);
                 transform.position = Vector2.MoveTowards(transform.position,mDestination.transform.position,4f*Time.deltaTime);
                 float distance = Vector3.Distance (transform.position, mDestination.transform.position);
+                Difference = mDestination.transform.position - transform.position;
                 if(distance<2f){
                     middleStepPassed=middleStepPassed+1;
                 }
-
-            }else if (finalDestination!=null)
-            {
-            transform.position = Vector2.MoveTowards(transform.position,finalDestination.transform.position,4f*Time.deltaTime);
-             float distance = Vector3.Distance (transform.position, finalDestination.transform.position);
+            } else if (finalDestination!=null) {
+                transform.position = Vector2.MoveTowards(transform.position,finalDestination.transform.position,4f*Time.deltaTime);
+                float distance = Vector3.Distance (transform.position, finalDestination.transform.position);
+                Difference = finalDestination.transform.position - transform.position;
                 if(distance<2f){
                     Destroy(gameObject);
                 }
             }
+
+            _animator.SetFloat("SpeedX", Difference.x);
+            _animator.SetFloat("SpeedY", Difference.y);
         }
        
     }
