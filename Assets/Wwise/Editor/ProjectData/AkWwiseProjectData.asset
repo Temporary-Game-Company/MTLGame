@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3616e2a215b0542a35ee38b9f03a039
     GuidInternal: 
-    m_lastTime: -8585187493887803847
+    m_lastTime: -8585187485531990550
     List:
     - name: Play_Ambiances
       guid: a50d0bd16c213444a930d5eadaf1150a
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: Play_Ambiances
         ObjectType: 3
         guid: a50d0bd16c213444a930d5eadaf1150a
-      Path: Events/Default Work Unit/Play_Ambiances
+      Path: Events\Default Work Unit\Play_Ambiances
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -126,7 +126,7 @@ MonoBehaviour:
       - ElementName: Play_Footsteps
         ObjectType: 3
         guid: ea49acce0553e74db3ce87e7c4a95a5b
-      Path: Events/Default Work Unit/Play_Footsteps
+      Path: Events\Default Work Unit\Play_Footsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -143,7 +143,7 @@ MonoBehaviour:
       - ElementName: Play_Music
         ObjectType: 3
         guid: 06f366a405e1eb4a8679ef58cddcb8e3
-      Path: Events/Default Work Unit/Play_Music
+      Path: Events\Default Work Unit\Play_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -160,7 +160,7 @@ MonoBehaviour:
       - ElementName: Play_PickUp
         ObjectType: 3
         guid: 742613afd95f2440bb9fb28438fa2f1b
-      Path: Events/Default Work Unit/Play_PickUp
+      Path: Events\Default Work Unit\Play_PickUp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -177,7 +177,7 @@ MonoBehaviour:
       - ElementName: Play_Rats
         ObjectType: 3
         guid: 0a6df29ea342b545b074ab03084002e3
-      Path: Events/Default Work Unit/Play_Rats
+      Path: Events\Default Work Unit\Play_Rats
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -211,7 +211,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Crafting
         ObjectType: 3
         guid: eb758ed227d02343a049486338ccb576
-      Path: Events/Default Work Unit/Play_SFX_Crafting
+      Path: Events\Default Work Unit\Play_SFX_Crafting
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -228,7 +228,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_FryingFood01
         ObjectType: 3
         guid: b7d65f96f4281e4f96b58c2792a0fb3c
-      Path: Events/Default Work Unit/Play_SFX_FryingFood01
+      Path: Events\Default Work Unit\Play_SFX_FryingFood01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -245,7 +245,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_LiquidPouring
         ObjectType: 3
         guid: 68b5e0e676db6b4cb25ec2b1b581db59
-      Path: Events/Default Work Unit/Play_SFX_LiquidPouring
+      Path: Events\Default Work Unit\Play_SFX_LiquidPouring
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
