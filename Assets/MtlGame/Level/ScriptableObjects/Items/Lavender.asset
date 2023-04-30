@@ -32,7 +32,7 @@ MonoBehaviour:
     DisplayUseButton: 1
     DisplayUnequipButton: 1
   Quantity: 1
-  ItemName: 
+  ItemName: Lavender
   ShortDescription: 
   Description: 
   Icon: {fileID: 21300000, guid: 25ee8b101dc26984d948dea65eee75eb, type: 3}

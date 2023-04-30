@@ -53,7 +53,7 @@ public class EventManager : MonoBehaviour
     void createNPC(){
         int npcType = Random.Range(0,npcs.Count); 
         GameObject selectedNpc = npcs[npcType];
-        int selectedNode   = Random.Range(1,7); 
+        int selectedNode   = Random.Range(1,homes.Count-1); 
         Debug.Log(selectedNode);
         GameObject startNode = GameObject.Find("node"+selectedNode);
         GameObject pc = Instantiate(selectedNpc,startNode.transform.position,selectedNpc.transform.rotation) as GameObject;
@@ -66,7 +66,8 @@ public class EventManager : MonoBehaviour
             checkUnInfectedHomes();
             int numberOfavailableHomes = unInfectedHomes.Count;
             int selectedHome   = Random.Range(0,numberOfavailableHomes); 
-            unInfectedHomes[selectedHome].infectHome();
+
+            if (numberOfavailableHomes > 0) unInfectedHomes[selectedHome].infectHome();
             _timeToInfection = infectionRate;
         }
     }

@@ -12,7 +12,7 @@ public class npc : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int selectedNode   = Random.Range(1,7); 
+        int selectedNode   = Random.Range(1,6); 
         finalDestination = GameObject.Find("node"+selectedNode);
         for (int i = 0; i < 10; i++)
         {
