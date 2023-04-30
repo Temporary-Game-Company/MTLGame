@@ -5,10 +5,12 @@ using MoreMountains.InventoryEngine;
 
 public class Home : MonoBehaviour
 {
-    [SerializeField] float timeToRescue=100f;
     private bool infectionStatus = false;
     private bool liveStatus = true;
-    private float passedTimeForRescue=0f;
+
+    [Tooltip("Time before a sick person dies.")]
+    [SerializeField] private float _timeToRescue = 0f;
+    private float _timeLeftToRescue;
 
     [Tooltip("The list of possible remedies randomly chosen from.")]
     [SerializeField] private ItemSet _possibleRemedies;
@@ -28,21 +30,22 @@ public class Home : MonoBehaviour
     {
         infectionStatus = false;
         liveStatus = true;
-        timeToRescue=100f;
-        passedTimeForRescue=0f;
+        _timeLeftToRescue=_timeToRescue;
     }
 
     // Update is called once per frame
     void Update()
     {
         if(liveStatus){
-            if (infectionStatus){
-            passedTimeForRescue += 1*Time.deltaTime;
-            if(timeToRescue<passedTimeForRescue){
-                liveStatus = false;
+            if (infectionStatus) {
+                _timeLeftToRescue -= 1*Time.deltaTime;
+                if(_timeLeftToRescue<=0f){
+                    Die();
+                    _timeLeftToRescue=_timeToRescue;
+                }
             }
-            }else{
-            passedTimeForRescue=0f;
+            else {
+                _timeLeftToRescue=_timeToRescue;
             }
         }
     }
@@ -60,6 +63,11 @@ public class Home : MonoBehaviour
         
         SetRemedy();
         _helpIndicataor.HelpNeeded(_remedyNeeded.Icon);
+    }
+
+    private void Die()
+    {
+        liveStatus = false;
     }
 
     public void disinfectHome()
@@ -80,7 +88,7 @@ public class Home : MonoBehaviour
         Debug.Log("Reached");
         InventoryItem playerItem = _playerInventory.Content[0];
 
-        if(playerItem.Equals(_remedyNeeded) && liveStatus && infectionStatus){
+        if(playerItem.ItemID.Equals(_remedyNeeded.ItemID) && liveStatus && infectionStatus){
             disinfectHome();
         }
     }

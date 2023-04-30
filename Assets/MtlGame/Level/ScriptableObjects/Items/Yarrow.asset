@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
-  m_Name: Remedy
+  m_Name: Yarrow
   m_EditorClassIdentifier: 
-  ItemID: Base_Remedy
+  ItemID: Yarrow
   TargetInventoryName: HoldingSlot
   ForceSlotIndex: 0
   TargetIndex: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
   ItemName: 
   ShortDescription: 
   Description: 
-  Icon: {fileID: 21300000, guid: bae61d10d2c002f4cb905e0d07d190ce, type: 3}
+  Icon: {fileID: 21300000, guid: 11751f145c13ec64eb7ad7532a087e1b, type: 3}
   Prefab: {fileID: 8817093793805760462, guid: 21deb0b280df294449da0bf0fa414ab4, type: 3}
   DropProperties:
     Shape: 0

@@ -381,13 +381,16 @@ namespace MoreMountains.InventoryEngine
 				DrawSlot(i);
 			}
 
-			if (Application.isPlaying)
+			if (_slotPrefab)
 			{
-				Destroy (_slotPrefab.gameObject);	
-			}
-			else
-			{
-				DestroyImmediate (_slotPrefab.gameObject);	
+				if (Application.isPlaying)
+				{
+					Destroy (_slotPrefab.gameObject);	
+				}
+				else
+				{
+					DestroyImmediate (_slotPrefab.gameObject);	
+				}
 			}
 
 			if (EnableNavigation)

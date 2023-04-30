@@ -10,7 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e673a9cec12c22b45a514c7d92d98b5f, type: 3}
-  m_Name: Remedies
+  m_Name: Herbs
   m_EditorClassIdentifier: 
   _items:
   - {fileID: 11400000, guid: 5e9db060f7618294ca26b12424058c88, type: 2}
+  - {fileID: 11400000, guid: e677de00ec1b5cf48a691d140bf73272, type: 2}
+  - {fileID: 11400000, guid: 616aecbd78f29ae42b59fb3237c90fdf, type: 2}
+  - {fileID: 11400000, guid: 9b0ff31b33c9fcf4090073b98714a85e, type: 2}
+  - {fileID: 11400000, guid: 08dc7c65f524ef74186d9bf336e7bab9, type: 2}

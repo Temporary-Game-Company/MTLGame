@@ -137,7 +137,7 @@ Transform:
   - {fileID: 5421326875348839975}
   - {fileID: 5211217304132158569}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5421326874131907541
 BoxCollider2D:
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade70e7202ce5f1488f3bbd1074ef6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToRescue: 100
+  _timeToRescue: 30
   _possibleRemedies: {fileID: 11400000, guid: 5bd8a006f9201f84ca49c01137674602, type: 2}
   _playerInventory: {fileID: 0}
   _helpIndicataor: {fileID: 2733568142849731800}
