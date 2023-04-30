@@ -1,31 +1,60 @@
 Event	ID	Name			Wwise Object Path	Notes
+	177530825	Play_SFX_Leech			\Default Work Unit\Play_SFX_Leech	
+	371496061	Play_SFX_GardenSnip			\Default Work Unit\Play_SFX_GardenSnip	
 	709050168	Play_SFX_LiquidPouring			\Default Work Unit\Play_SFX_LiquidPouring	
 	1193561773	Play_Ambiances			\Default Work Unit\Play_Ambiances	
+	1265037602	Play_SFX_Sniff			\Default Work Unit\Play_SFX_Sniff	
+	2239798495	Play_SFX_Chicken			\Default Work Unit\Play_SFX_Chicken	
 	2385941226	Play_Rats			\Default Work Unit\Play_Rats	
 	2577559157	Play_SFX_BellRinging			\Default Work Unit\Play_SFX_BellRinging	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	3860455926	Play_PickUp			\Default Work Unit\Play_PickUp	
+	3992128610	Play_SFX_VillagerHey			\Default Work Unit\Play_SFX_VillagerHey	
 	4038676508	Play_SFX_FryingFood01			\Default Work Unit\Play_SFX_FryingFood01	
 	4233537492	Play_SFX_Crafting			\Default Work Unit\Play_SFX_Crafting	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7872265	SFX_Rat05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat05		78656
+	60872316	SFX_VillagerHey04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey04		58564
+	77792134	SFX_Chicken02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken02		121436
+	95277433	SFX_Sniff02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff02		95708
 	106889602	SFX_FryingFood01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_FryingFood01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_FryingFood01		242708
 	250861023	SFX_Rat02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat02		78532
-	259475316	GloomTown02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\GloomTown02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\GloomTown02		20537952
+	253411929	SFX_Chicken01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken01		99384
+	284213057	SFX_VillagerHey01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey01		58556
+	297426163	SFX_Leech01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Leech01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Leech\SFX_Leech01		67932
+	301483348	SFX_Leech02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Leech02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Leech\SFX_Leech02		70928
+	316522876	SFX_Chicken05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken05		198612
 	333839857	Amb_Loop01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\Amb_Loop01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Loop01		2116960
+	392596253	SFX_VillagerHey08	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey08		62720
+	392709983	SFX_Sniff04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff04		121432
 	425236382	SFX_Rat04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat04		77336
+	440753058	SFX_VillagerHey06	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey06		73348
+	499401325	SFX_Leech03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Leech03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Leech\SFX_Leech03		49056
 	504883863	FS_Dirt_04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\FS_Dirt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_04		40366
 	507247569	SFX_BellRinging	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_BellRinging_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_BellRinging		970360
+	586839752	SFX_Chicken04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken04		84684
+	616493768	SFX_Sniff03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff03		268436
 	617972286	FS_Dirt_02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\FS_Dirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_02		42550
 	654764867	SFX_Rat01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat01		110408
+	689375119	SFX_VillagerHey03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey03		62652
 	735011620	FS_Dirt_01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\FS_Dirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_01		35744
+	735939267	SFX_Sniff05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff05		161860
+	802140775	SFX_VillagerHey07	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey07		60696
+	828005797	SFX_VillagerHey02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey02		66964
 	843669517	SFX_LiquidPouring	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_LiquidPouring_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_LiquidPouring		187588
 	844330494	SFX_Crafting	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Crafting_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Crafting		132460
+	860551974	SFX_VillagerHey09	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey09		57604
 	873847301	PlaguePlease_v02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\PlaguePlease_v02_5D0E502C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\PlaguePlease_v02		20531952
+	908077452	SFX_Chicken03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken03		103060
+	913827179	SFX_VillagerHey05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey05		62896
+	918832011	SFX_Snip01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Snip01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_GardenSnip\SFX_Snip01		33332
 	950619938	SFX_PickUp1	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_PickUp1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUp\SFX_PickUp1		44260
 	958897491	FS_Dirt_03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_03		43464
 	963326854	SFX_Rat03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat03		90472
 	1017560216	AMB_Aerial_v01a	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\AMB_Aerial_v01a_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Aerial_v01a		970296
+	1051148966	SFX_Snip02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Snip02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_GardenSnip\SFX_Snip02		32412
+	1057611068	SFX_Sniff06	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff06		176560
+	1068690051	SFX_Sniff01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff01		99388
 

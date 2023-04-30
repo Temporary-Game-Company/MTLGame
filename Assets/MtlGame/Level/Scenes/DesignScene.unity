@@ -7469,6 +7469,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade70e7202ce5f1488f3bbd1074ef6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &318255648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1997364199477008, guid: 53b5109c08134e948bd6939a2a33db4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1775870571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &318255652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318255648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170075c7383e14c3d9e4c8bb8b2dcda9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &324970959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18796,7 +18814,7 @@ PrefabInstance:
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.11111111
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -19847,6 +19865,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224419649234339082, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8
+      objectReference: {fileID: 0}
     - target: {fileID: 224428629580308236, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -20120,7 +20143,7 @@ PrefabInstance:
     - target: {fileID: 224643050518424086, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28
+      value: -28.000122
       objectReference: {fileID: 0}
     - target: {fileID: 224648701698184504, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -24398,7 +24421,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1997364199477008, guid: 53b5109c08134e948bd6939a2a33db4c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 318255652}
   m_SourcePrefab: {fileID: 100100000, guid: 53b5109c08134e948bd6939a2a33db4c, type: 3}
 --- !u!1001 &1777142343
 PrefabInstance:

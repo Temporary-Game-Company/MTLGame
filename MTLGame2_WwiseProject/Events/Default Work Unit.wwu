@@ -109,6 +109,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Chicken" ID="{9093550F-0BB0-46E2-A97C-A57D6397800A}">
+					<ChildrenList>
+						<Action Name="" ID="{5BFFAD04-0C0B-4697-AF4D-5BB7EAA9514F}" ShortID="742859399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Chicken" ID="{0A1ECCA1-A964-408B-9CF8-EC10D1B6700D}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GardenSnip" ID="{2A2026DA-DD3F-4FEB-9DF1-555920E061A1}">
+					<ChildrenList>
+						<Action Name="" ID="{DB732D18-9D6D-4BCE-815F-B779CA81C9B8}" ShortID="270564517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GardenSnip" ID="{06E11428-8746-4093-B5ED-C1D0E07B6D09}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Leech" ID="{3731EDD1-DB97-4A51-BDB6-17CA904E6AE5}">
+					<ChildrenList>
+						<Action Name="" ID="{C8C51C63-8AE8-4ED0-AD75-66FDE732440B}" ShortID="477355941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Leech" ID="{0D5008E4-8240-4482-856E-CA04CD10FC0F}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Sniff" ID="{C1EBAEF3-B7C6-4FAC-913D-3657A99DAC75}">
+					<ChildrenList>
+						<Action Name="" ID="{D7EB5BD4-7641-49CC-B8F6-080E2FC7F34D}" ShortID="838376714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sniff" ID="{63730E5E-B494-43CB-B56F-C337222FA81B}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_VillagerHey" ID="{6CE73068-A22A-4865-81A1-5E11378776DF}">
+					<ChildrenList>
+						<Action Name="" ID="{24F4E48A-0717-4DFF-9B64-F8EF80DCFDF4}" ShortID="79305659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_VillagerHey" ID="{0EA46FF9-C13E-4B7B-AC4B-D992C5F3F963}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

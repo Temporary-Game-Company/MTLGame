@@ -9,13 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{1B7AACDE-9F30-0BE9-62D5-AD2E9D1BA5DB}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{F5B5274E-1359-3927-044A-5E692988991D}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
 				<File Id="7872265" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Rat05.wav</ShortName>
 					<CachePath>SFX/SFX_Rat05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="60872316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey04.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="77792134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chicken02.wav</ShortName>
+					<CachePath>SFX/SFX_Chicken02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95277433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff02.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="106889602" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_FryingFood01.wav</ShortName>
@@ -25,17 +37,49 @@
 					<ShortName>SFX_Rat02.wav</ShortName>
 					<CachePath>SFX/SFX_Rat02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="259475316" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>GloomTown02.wav</ShortName>
-					<CachePath>SFX/GloomTown02_10C4C929.wem</CachePath>
+				<File Id="253411929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chicken01.wav</ShortName>
+					<CachePath>SFX/SFX_Chicken01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="284213057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey01.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="297426163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Leech01.wav</ShortName>
+					<CachePath>SFX/SFX_Leech01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="301483348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Leech02.wav</ShortName>
+					<CachePath>SFX/SFX_Leech02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="316522876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chicken05.wav</ShortName>
+					<CachePath>SFX/SFX_Chicken05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="333839857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Loop01.wav</ShortName>
 					<CachePath>SFX/Amb_Loop01_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="392596253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey08.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392709983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff04.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="425236382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Rat04.wav</ShortName>
 					<CachePath>SFX/SFX_Rat04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440753058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey06.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="499401325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Leech03.wav</ShortName>
+					<CachePath>SFX/SFX_Leech03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="504883863" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_04.wav</ShortName>
@@ -45,6 +89,14 @@
 					<ShortName>SFX_BellRinging.wav</ShortName>
 					<CachePath>SFX/SFX_BellRinging_10C4C929.wem</CachePath>
 				</File>
+				<File Id="586839752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chicken04.wav</ShortName>
+					<CachePath>SFX/SFX_Chicken04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="616493768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff03.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="617972286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_02.wav</ShortName>
 					<CachePath>SFX/FS_Dirt_02_10C4C929.wem</CachePath>
@@ -53,9 +105,25 @@
 					<ShortName>SFX_Rat01.wav</ShortName>
 					<CachePath>SFX/SFX_Rat01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="689375119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey03.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="735011620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_01.wav</ShortName>
 					<CachePath>SFX/FS_Dirt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="735939267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff05.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802140775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey07.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="828005797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey02.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="843669517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_LiquidPouring.wav</ShortName>
@@ -65,9 +133,25 @@
 					<ShortName>SFX_Crafting.wav</ShortName>
 					<CachePath>SFX/SFX_Crafting_10C4C929.wem</CachePath>
 				</File>
+				<File Id="860551974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey09.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey09_10C4C929.wem</CachePath>
+				</File>
 				<File Id="873847301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlaguePlease_v02.wav</ShortName>
 					<CachePath>SFX/PlaguePlease_v02_5D0E502C.wem</CachePath>
+				</File>
+				<File Id="908077452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chicken03.wav</ShortName>
+					<CachePath>SFX/SFX_Chicken03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="913827179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerHey05.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerHey05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="918832011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Snip01.wav</ShortName>
+					<CachePath>SFX/SFX_Snip01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="950619938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_PickUp1.wav</ShortName>
@@ -84,6 +168,18 @@
 				<File Id="1017560216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Aerial_v01a.wav</ShortName>
 					<CachePath>SFX/AMB_Aerial_v01a_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1051148966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Snip02.wav</ShortName>
+					<CachePath>SFX/SFX_Snip02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1057611068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff06.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1068690051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sniff01.wav</ShortName>
+					<CachePath>SFX/SFX_Sniff01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -103,7 +199,6 @@
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="259475316"/>
 						<MediaRef Id="873847301"/>
 					</MediaRefs>
 				</Event>
@@ -126,6 +221,15 @@
 						<MediaRef Id="507247569"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2239798495" Name="Play_SFX_Chicken" DurationType="OneShot" DurationMin="0.479161" DurationMax="1.1250113">
+					<MediaRefs>
+						<MediaRef Id="77792134"/>
+						<MediaRef Id="253411929"/>
+						<MediaRef Id="316522876"/>
+						<MediaRef Id="586839752"/>
+						<MediaRef Id="908077452"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4233537492" Name="Play_SFX_Crafting" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="844330494"/>
@@ -136,9 +240,45 @@
 						<MediaRef Id="106889602"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="371496061" Name="Play_SFX_GardenSnip" DurationType="OneShot" DurationMin="0.18283446" DurationMax="0.18804988">
+					<MediaRefs>
+						<MediaRef Id="918832011"/>
+						<MediaRef Id="1051148966"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="177530825" Name="Play_SFX_Leech" DurationType="OneShot" DurationMin="0.2771882" DurationMax="0.40117913">
+					<MediaRefs>
+						<MediaRef Id="297426163"/>
+						<MediaRef Id="301483348"/>
+						<MediaRef Id="499401325"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="709050168" Name="Play_SFX_LiquidPouring" DurationType="OneShot" DurationMin="1.062517" DurationMax="1.062517">
 					<MediaRefs>
 						<MediaRef Id="843669517"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1265037602" Name="Play_SFX_Sniff" DurationType="OneShot" DurationMin="0.5416553" DurationMax="1.520839">
+					<MediaRefs>
+						<MediaRef Id="95277433"/>
+						<MediaRef Id="392709983"/>
+						<MediaRef Id="616493768"/>
+						<MediaRef Id="735939267"/>
+						<MediaRef Id="1057611068"/>
+						<MediaRef Id="1068690051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3992128610" Name="Play_SFX_VillagerHey" DurationType="OneShot" DurationMin="0.32564625" DurationMax="0.41489795">
+					<MediaRefs>
+						<MediaRef Id="60872316"/>
+						<MediaRef Id="284213057"/>
+						<MediaRef Id="392596253"/>
+						<MediaRef Id="440753058"/>
+						<MediaRef Id="689375119"/>
+						<MediaRef Id="802140775"/>
+						<MediaRef Id="828005797"/>
+						<MediaRef Id="860551974"/>
+						<MediaRef Id="913827179"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -157,5 +297,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{95B94010-2F6D-3E9D-5EE7-B3F8339E5AAE}</FileHash>
+	<FileHash>{89DE68AE-2B19-67A7-C4FE-A654A625B820}</FileHash>
 </SoundBanksInfo>
