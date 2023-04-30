@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 8828091580989390056}
   - component: {fileID: 8917726372578214432}
   m_Layer: 0
-  m_Name: Chicken
+  m_Name: Leeches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 8695284869092313916}
   - component: {fileID: 7581484047530870737}
   m_Layer: 0
-  m_Name: Leeches
+  m_Name: Koala_Pickups_Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,7 +622,7 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 634925901, guid: d7a275f6fd7f3fd40a51cf948860b4b3, type: 3}
+  m_Sprite: {fileID: 1826123129, guid: dea77ffe2991f574b8c4bdaef929f4f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -643,7 +643,7 @@ Animator:
   m_GameObject: {fileID: 8817717829206363714}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0f3e0b8d87797bd4da7eefcc7269e821, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7c2ca04cbc9614e4594262924c24c8e7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
