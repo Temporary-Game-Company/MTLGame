@@ -9,6 +9,34 @@
 							<ObjectRef Name="Play_SFX_BellRinging" ID="{AAC5AEDF-08B5-41DC-82CA-B9316C5CBB2B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{A466F306-E105-4AEB-8679-EF58CDDCB8E3}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_FryingFood01" ID="{965FD6B7-28F4-4F1E-96B5-8C2792A0FB3C}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{CEAC49EA-5305-4DE7-B3CE-87E7C4A95A5B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Rats" ID="{9EF26D0A-42A3-45B5-B074-AB03084002E3}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_LiquidPouring" ID="{E6E0B568-DB76-4C6B-B25E-C2B1B581DB59}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

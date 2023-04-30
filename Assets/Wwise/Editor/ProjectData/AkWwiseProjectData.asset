@@ -94,8 +94,93 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3616e2a215b0542a35ee38b9f03a039
     GuidInternal: 
-    m_lastTime: -8585187862110805261
+    m_lastTime: -8585187493887803847
     List:
+    - name: Play_Ambiances
+      guid: a50d0bd16c213444a930d5eadaf1150a
+      id: 1193561773
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_Ambiances
+        ObjectType: 3
+        guid: a50d0bd16c213444a930d5eadaf1150a
+      Path: Events/Default Work Unit/Play_Ambiances
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps
+      guid: ea49acce0553e74db3ce87e7c4a95a5b
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: ea49acce0553e74db3ce87e7c4a95a5b
+      Path: Events/Default Work Unit/Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 06f366a405e1eb4a8679ef58cddcb8e3
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 06f366a405e1eb4a8679ef58cddcb8e3
+      Path: Events/Default Work Unit/Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PickUp
+      guid: 742613afd95f2440bb9fb28438fa2f1b
+      id: 3860455926
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_PickUp
+        ObjectType: 3
+        guid: 742613afd95f2440bb9fb28438fa2f1b
+      Path: Events/Default Work Unit/Play_PickUp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Rats
+      guid: 0a6df29ea342b545b074ab03084002e3
+      id: 2385941226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_Rats
+        ObjectType: 3
+        guid: 0a6df29ea342b545b074ab03084002e3
+      Path: Events/Default Work Unit/Play_Rats
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_BellRinging
       guid: dfaec5aab508dc4182cab9316c5cbb2b
       id: 2577559157
@@ -110,6 +195,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: dfaec5aab508dc4182cab9316c5cbb2b
       Path: Events\Default Work Unit\Play_SFX_BellRinging
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Crafting
+      guid: eb758ed227d02343a049486338ccb576
+      id: 4233537492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_SFX_Crafting
+        ObjectType: 3
+        guid: eb758ed227d02343a049486338ccb576
+      Path: Events/Default Work Unit/Play_SFX_Crafting
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_FryingFood01
+      guid: b7d65f96f4281e4f96b58c2792a0fb3c
+      id: 4038676508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_SFX_FryingFood01
+        ObjectType: 3
+        guid: b7d65f96f4281e4f96b58c2792a0fb3c
+      Path: Events/Default Work Unit/Play_SFX_FryingFood01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_LiquidPouring
+      guid: 68b5e0e676db6b4cb25ec2b1b581db59
+      id: 709050168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_SFX_LiquidPouring
+        ObjectType: 3
+        guid: 68b5e0e676db6b4cb25ec2b1b581db59
+      Path: Events/Default Work Unit/Play_SFX_LiquidPouring
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

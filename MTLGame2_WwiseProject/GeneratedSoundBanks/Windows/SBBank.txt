@@ -1,6 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
+	709050168	Play_SFX_LiquidPouring			\Default Work Unit\Play_SFX_LiquidPouring	
+	1193561773	Play_Ambiances			\Default Work Unit\Play_Ambiances	
+	2385941226	Play_Rats			\Default Work Unit\Play_Rats	
 	2577559157	Play_SFX_BellRinging			\Default Work Unit\Play_SFX_BellRinging	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+	3860455926	Play_PickUp			\Default Work Unit\Play_PickUp	
+	4038676508	Play_SFX_FryingFood01			\Default Work Unit\Play_SFX_FryingFood01	
+	4233537492	Play_SFX_Crafting			\Default Work Unit\Play_SFX_Crafting	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7872265	SFX_Rat05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Rat05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat05		78656
+	106889602	SFX_FryingFood01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_FryingFood01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_FryingFood01		242708
+	250861023	SFX_Rat02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Rat02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat02		78532
+	259475316	GloomTown02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\GloomTown02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\GloomTown02		20537952
+	333839857	Amb_Loop01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\Amb_Loop01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Loop01		2116960
+	425236382	SFX_Rat04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Rat04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat04		77336
+	504883863	FS_Dirt_04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\FS_Dirt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_04		40366
 	507247569	SFX_BellRinging	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_BellRinging_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_BellRinging		970360
+	617972286	FS_Dirt_02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\FS_Dirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_02		42550
+	654764867	SFX_Rat01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Rat01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat01		110408
+	735011620	FS_Dirt_01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\FS_Dirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_01		35744
+	843669517	SFX_LiquidPouring	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_LiquidPouring_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_LiquidPouring		187588
+	844330494	SFX_Crafting	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Crafting_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Crafting		132460
+	873847301	PlaguePlease_v02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\PlaguePlease_v02_5D0E502C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\PlaguePlease_v02		20531952
+	950619938	SFX_PickUp1	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_PickUp1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUp\SFX_PickUp1		44260
+	958897491	FS_Dirt_03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_03		43464
+	963326854	SFX_Rat03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_Rat03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat03		90472
+	1017560216	AMB_Aerial_v01a	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\AMB_Aerial_v01a_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Aerial_v01a		970296
 
