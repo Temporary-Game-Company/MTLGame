@@ -26,6 +26,10 @@ public class Home : MonoBehaviour
 
     [SerializeField] private MMFeedback _curedFeedback;
 
+
+    [Tooltip("The sprite for when dead.")]
+    [SerializeField] private Sprite _deadSprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +73,8 @@ public class Home : MonoBehaviour
     private void Die()
     {
         liveStatus = false;
+
+        _helpIndicataor.HelpNeeded(_deadSprite);
     }
 
     // Feedback and internal for when home is cured.
