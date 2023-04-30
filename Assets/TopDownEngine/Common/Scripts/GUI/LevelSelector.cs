@@ -28,6 +28,11 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void GoToLevel()
 		{
+			Invoke("LoadLevel", 1f);
+		}
+
+		private void LoadLevel()
+		{
 			LoadScene(LevelName);
 		}
 

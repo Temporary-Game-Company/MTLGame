@@ -1078,9 +1078,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1547555547}
-        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.LevelSelector, MoreMountains.TopDownEngine
-        m_MethodName: GoToLevel
+      - m_Target: {fileID: 1547555550}
+        m_TargetAssemblyTypeName: ButtonClickSFX, Assembly-CSharp
+        m_MethodName: Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1090,9 +1090,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1547555550}
-        m_TargetAssemblyTypeName: ButtonClickSFX, Assembly-CSharp
-        m_MethodName: Click
+      - m_Target: {fileID: 1547555547}
+        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.LevelSelector, MoreMountains.TopDownEngine
+        m_MethodName: GoToLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
