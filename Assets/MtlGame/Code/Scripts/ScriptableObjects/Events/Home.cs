@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.InventoryEngine;
+using MoreMountains.Feedbacks;
 
 public class Home : MonoBehaviour
 {
@@ -23,7 +24,11 @@ public class Home : MonoBehaviour
     [Tooltip("The indicator for when sick.")]
     [SerializeField] private HelpIndicator _helpIndicataor;
 
+    [SerializeField] private MMFeedback _curedFeedback;
 
+
+    [Tooltip("The sprite for when dead.")]
+    [SerializeField] private Sprite _deadSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -68,13 +73,17 @@ public class Home : MonoBehaviour
     private void Die()
     {
         liveStatus = false;
+
+        _helpIndicataor.HelpNeeded(_deadSprite);
     }
 
+    // Feedback and internal for when home is cured.
     public void disinfectHome()
     {
         infectionStatus = false;
 
         _helpIndicataor.Cured();
+        _curedFeedback.Play(transform.position);
     }
 
     // Sets a random remedy needed 

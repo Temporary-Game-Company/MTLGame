@@ -171,7 +171,7 @@ namespace MoreMountains.TopDownEngine
 		public UnityEvent OnStay;
 
 		protected Animator _buttonPromptAnimator;
-		protected ButtonPrompt _buttonPrompt;
+		[SerializeField] protected ButtonPrompt _buttonPrompt;
 		protected Collider _collider;
 		protected Collider2D _collider2D;
 		protected bool _promptHiddenForever = false;
@@ -358,7 +358,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void ShowPrompt()
 		{
-			if (!UseVisualPrompt || _promptHiddenForever || (ButtonPromptPrefab == null))
+			if (!UseVisualPrompt || _promptHiddenForever)
 			{
 				return;
 			}
@@ -369,21 +369,22 @@ namespace MoreMountains.TopDownEngine
 				_buttonPrompt = (ButtonPrompt)Instantiate(ButtonPromptPrefab);
 				_buttonPrompt.Initialization();
 				_buttonPromptAnimator = _buttonPrompt.gameObject.MMGetComponentNoAlloc<Animator>();
+				
+				if (_collider != null)
+				{
+					_buttonPrompt.transform.position = _collider.bounds.center + PromptRelativePosition;
+				}
+				if (_collider2D != null)
+				{
+					_buttonPrompt.transform.position = _collider2D.bounds.center + PromptRelativePosition;
+				}
+				_buttonPrompt.transform.parent = transform;
+				_buttonPrompt.transform.localEulerAngles = PromptRotation;
+				_buttonPrompt.SetText(ButtonPromptText);
+				_buttonPrompt.SetBackgroundColor(ButtonPromptColor);
+				_buttonPrompt.SetTextColor(ButtonPromptTextColor);
 			}
 			
-			if (_collider != null)
-			{
-				_buttonPrompt.transform.position = _collider.bounds.center + PromptRelativePosition;
-			}
-			if (_collider2D != null)
-			{
-				_buttonPrompt.transform.position = _collider2D.bounds.center + PromptRelativePosition;
-			}
-			_buttonPrompt.transform.parent = transform;
-			_buttonPrompt.transform.localEulerAngles = PromptRotation;
-			_buttonPrompt.SetText(ButtonPromptText);
-			_buttonPrompt.SetBackgroundColor(ButtonPromptColor);
-			_buttonPrompt.SetTextColor(ButtonPromptTextColor);
 			_buttonPrompt.Show();
 		}
 
