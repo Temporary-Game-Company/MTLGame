@@ -870,7 +870,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-18</Value>
+								<Value>-22</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1316,35 +1316,6 @@
 						<ActiveSource Name="SFX_DropObject" ID="{CAE2D067-0532-4D50-810A-490EF025BFEA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SFX_VillagerCured" ID="{D0F93674-E273-4A99-B581-EDC6C262E48B}" ShortID="216317434">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-16</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_VillagerCured" ID="{AD2A4717-1EA3-4F41-8336-8A07333955D3}">
-							<Language>SFX</Language>
-							<AudioFile>SFX_VillagerCured.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="498864994"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_VillagerCured" ID="{AD2A4717-1EA3-4F41-8336-8A07333955D3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="MenuMusic" ID="{CEF688B4-F2DA-4EAA-9305-F7E8432472D0}" ShortID="434698442">
 					<PropertyList>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -1395,6 +1366,334 @@
 						<ItemRef Name="MenuLoop" ID="{A0E9B8E3-FBA5-47A9-8245-2C84AA51663A}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="VillagerCured" ID="{26B3CAB9-FD1C-45A8-BD35-92178370DEDA}" ShortID="239757633">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Heal01" ID="{2CFAADE3-E452-4A14-AC1D-4C6C3793DBB2}" ShortID="1001986973">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal01" ID="{E5B73984-3524-457A-A2FF-AE0D5FA60F80}">
+									<Language>SFX</Language>
+									<AudioFile>Heal01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="727364463"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal01" ID="{E5B73984-3524-457A-A2FF-AE0D5FA60F80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal02" ID="{A9E3084E-759E-4AC6-A568-40A20DBC1BB6}" ShortID="258966300">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal02" ID="{A5C9C01E-89B0-4C86-A710-301DC6770EE6}">
+									<Language>SFX</Language>
+									<AudioFile>Heal02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="614277753"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal02" ID="{A5C9C01E-89B0-4C86-A710-301DC6770EE6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal03" ID="{24F64EA9-1406-4DD5-900D-58532F5805B9}" ShortID="720802158">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal03" ID="{3ADCFF31-1F4D-4968-BEA7-8D5CDE925AB2}">
+									<Language>SFX</Language>
+									<AudioFile>Heal03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544028195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal03" ID="{3ADCFF31-1F4D-4968-BEA7-8D5CDE925AB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal04" ID="{95DEDB0A-822F-48C1-8515-7726BEC8706D}" ShortID="524580110">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal04" ID="{7C77A755-74F5-4EAC-8316-2ED73196C2F7}">
+									<Language>SFX</Language>
+									<AudioFile>Heal04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="95563262"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal04" ID="{7C77A755-74F5-4EAC-8316-2ED73196C2F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal05" ID="{47C8D57D-3C55-411E-AAA7-90DC10653BB3}" ShortID="851499906">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal05" ID="{8F3C60C6-8621-4D17-BB86-9EE7314ACC3A}">
+									<Language>SFX</Language>
+									<AudioFile>Heal05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="366272120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal05" ID="{8F3C60C6-8621-4D17-BB86-9EE7314ACC3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal06" ID="{77F6A380-A77E-4F9F-AD05-516419364D38}" ShortID="186895569">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal06" ID="{266CDD1E-AD49-400A-B81A-B17350F4C93A}">
+									<Language>SFX</Language>
+									<AudioFile>Heal06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="870116243"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal06" ID="{266CDD1E-AD49-400A-B81A-B17350F4C93A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal07" ID="{9283A90D-868B-4EDD-94A4-41876BF88076}" ShortID="308749149">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal07" ID="{FB638AE2-DB00-440C-A2EF-622589D9A756}">
+									<Language>SFX</Language>
+									<AudioFile>Heal07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289082214"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal07" ID="{FB638AE2-DB00-440C-A2EF-622589D9A756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal08" ID="{4F1BF990-FB83-4C1E-AAA2-A4914F660F9B}" ShortID="1059063730">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal08" ID="{6EEB35E6-81C0-49D9-B3AD-AB58FCF79488}">
+									<Language>SFX</Language>
+									<AudioFile>Heal08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042082823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal08" ID="{6EEB35E6-81C0-49D9-B3AD-AB58FCF79488}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal09" ID="{B149DA32-A0F9-45F6-95F3-0F9056BD36C1}" ShortID="932767992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal09" ID="{A3363D48-6835-4F8C-9FED-C51D44157956}">
+									<Language>SFX</Language>
+									<AudioFile>Heal09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="986601143"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal09" ID="{A3363D48-6835-4F8C-9FED-C51D44157956}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal10" ID="{61B96A8B-31CE-4ACC-89EA-4E5961E4F152}" ShortID="830040239">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal10" ID="{2F649740-C714-4506-9C03-11EE530EC82C}">
+									<Language>SFX</Language>
+									<AudioFile>Heal10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="721140181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal10" ID="{2F649740-C714-4506-9C03-11EE530EC82C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal11" ID="{5D6E9934-1E40-46D6-AC31-7090B7EEF766}" ShortID="823143552">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal11" ID="{45DDF3D2-9C03-4E7A-94D5-BBA384168B80}">
+									<Language>SFX</Language>
+									<AudioFile>Heal11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1039244776"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal11" ID="{45DDF3D2-9C03-4E7A-94D5-BBA384168B80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heal12" ID="{E394BA71-B32F-4841-9AB8-AF472638D35A}" ShortID="676530774">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heal12" ID="{08CBD843-94DB-46F1-8483-2039A40B2CE8}">
+									<Language>SFX</Language>
+									<AudioFile>Heal12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="570606161"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heal12" ID="{08CBD843-94DB-46F1-8483-2039A40B2CE8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Heal01" ID="{2CFAADE3-E452-4A14-AC1D-4C6C3793DBB2}"/>
+						<ItemRef Name="Heal02" ID="{A9E3084E-759E-4AC6-A568-40A20DBC1BB6}"/>
+						<ItemRef Name="Heal03" ID="{24F64EA9-1406-4DD5-900D-58532F5805B9}"/>
+						<ItemRef Name="Heal04" ID="{95DEDB0A-822F-48C1-8515-7726BEC8706D}"/>
+						<ItemRef Name="Heal05" ID="{47C8D57D-3C55-411E-AAA7-90DC10653BB3}"/>
+						<ItemRef Name="Heal06" ID="{77F6A380-A77E-4F9F-AD05-516419364D38}"/>
+						<ItemRef Name="Heal07" ID="{9283A90D-868B-4EDD-94A4-41876BF88076}"/>
+						<ItemRef Name="Heal08" ID="{4F1BF990-FB83-4C1E-AAA2-A4914F660F9B}"/>
+						<ItemRef Name="Heal09" ID="{B149DA32-A0F9-45F6-95F3-0F9056BD36C1}"/>
+						<ItemRef Name="Heal10" ID="{61B96A8B-31CE-4ACC-89EA-4E5961E4F152}"/>
+						<ItemRef Name="Heal11" ID="{5D6E9934-1E40-46D6-AC31-7090B7EEF766}"/>
+						<ItemRef Name="Heal12" ID="{E394BA71-B32F-4841-9AB8-AF472638D35A}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="NewAmb" ID="{6F423B67-F622-4448-A613-6728419B477A}" ShortID="655194990">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-36</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="NewAmb" ID="{2A9B045B-C106-48D5-9284-1CAD9A9770C1}">
+							<Language>SFX</Language>
+							<AudioFile>NewAmb.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="783050804"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="NewAmb" ID="{2A9B045B-C106-48D5-9284-1CAD9A9770C1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
