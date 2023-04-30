@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/MtlGame/Level/Scenes/DesignScene.unity
     guid: 6d8f454b43fd39f4189a7e7832069d0d
   - enabled: 1
-    path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    path: Assets/MtlGame/Level/Scenes/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreen.unity

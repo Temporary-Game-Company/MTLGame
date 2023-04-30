@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Table-Sandwich Games
   productName: SnifflesOfSorrow
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 55d233477be21674e96b6e4f2e514470, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.31581524, g: 0.4433962, b: 0.41150096, a: 1}
   m_ShowUnitySplashScreen: 1
