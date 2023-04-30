@@ -65,9 +65,11 @@ public class Home : MonoBehaviour
 
     public void infectHome(){
         infectionStatus = true;
-        
+    
         SetRemedy();
         _helpIndicataor.HelpNeeded(_remedyNeeded.Icon);
+        AkSoundEngine.PostEvent("Play_SFX_VillagerGotSick", gameObject);
+
     }
 
     private void Die()
@@ -98,6 +100,7 @@ public class Home : MonoBehaviour
         InventoryItem playerItem = _playerInventory.Content[0];
 
         if(playerItem.ItemID.Equals(_remedyNeeded.ItemID) && liveStatus && infectionStatus){
+            AkSoundEngine.PostEvent("Play_SFX_VillagerCured", gameObject);
             disinfectHome();
         }
     }

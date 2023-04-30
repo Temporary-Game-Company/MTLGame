@@ -19,13 +19,17 @@ namespace AK
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_RATS = 2385941226U;
         static const AkUniqueID PLAY_SFX_BELLRINGING = 2577559157U;
+        static const AkUniqueID PLAY_SFX_BUTTONCLICK = 395357022U;
         static const AkUniqueID PLAY_SFX_CHICKEN = 2239798495U;
         static const AkUniqueID PLAY_SFX_CRAFTING = 4233537492U;
+        static const AkUniqueID PLAY_SFX_DROPOBJECT = 2770409516U;
         static const AkUniqueID PLAY_SFX_FRYINGFOOD01 = 4038676508U;
         static const AkUniqueID PLAY_SFX_GARDENSNIP = 371496061U;
         static const AkUniqueID PLAY_SFX_LEECH = 177530825U;
         static const AkUniqueID PLAY_SFX_LIQUIDPOURING = 709050168U;
         static const AkUniqueID PLAY_SFX_SNIFF = 1265037602U;
+        static const AkUniqueID PLAY_SFX_VILLAGERCURED = 723141557U;
+        static const AkUniqueID PLAY_SFX_VILLAGERGOTSICK = 857508468U;
         static const AkUniqueID PLAY_SFX_VILLAGERHEY = 3992128610U;
     } // namespace EVENTS
 

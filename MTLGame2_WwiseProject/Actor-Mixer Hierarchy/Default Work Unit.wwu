@@ -39,7 +39,7 @@
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-21</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -83,16 +83,52 @@
 								<ActiveSource Name="PlaguePlease_v02" ID="{5429B8B1-1A91-4E25-A6D8-50528B806C91}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="PlaguePlease_v3" ID="{D2EE576D-4019-4286-8863-5D3C79A09525}" ShortID="133922671">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlaguePlease_v3" ID="{01E5EB21-C4A9-4451-938F-029B5FBA4796}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1837.587"/>
+										<Property Name="LoopBegin" Type="Real64" Value="8.52524315511328"/>
+										<Property Name="LoopEnd" Type="Real64" Value="108.896903131536"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PlaguePlease_v3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="851125579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlaguePlease_v3" ID="{01E5EB21-C4A9-4451-938F-029B5FBA4796}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<Playlist>
-						<ItemRef Name="PlaguePlease_v02" ID="{5E90F7EA-B364-4DB4-B6EB-EB01F2C97BA1}"/>
+						<ItemRef Name="PlaguePlease_v3" ID="{D2EE576D-4019-4286-8863-5D3C79A09525}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Footsteps" ID="{37E6D8AE-4367-4CDA-B6C0-BADADCEC2DF3}" ShortID="1055772331">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>39</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-29</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -334,7 +370,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-33</Value>
+								<Value>-39</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -361,10 +397,15 @@
 				</Sound>
 				<Sound Name="AMB_Aerial_v01a" ID="{9A3D61C8-49FC-4043-8006-6F49E29506B3}" ShortID="296248542">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>45</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-33</Value>
+								<Value>-47</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -406,7 +447,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -447,7 +488,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -678,7 +719,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-18</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -816,6 +857,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="SFX_VillagerHey" ID="{0EA46FF9-C13E-4B7B-AC4B-D992C5F3F963}" ShortID="328729356">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
@@ -1029,7 +1077,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-11</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1153,6 +1201,184 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SFX_ButtonClick" ID="{5A352A29-5D6C-4023-995D-09F0E1099B2A}" ShortID="822902370">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_ButtonClick" ID="{BB77D4CB-74AA-48E5-B596-57722C2F2B04}" ShortID="146757800">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_ButtonClick" ID="{7535A9F4-0CF7-49E4-AE5D-D237545397D5}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_ButtonClick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="755769483"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_ButtonClick" ID="{7535A9F4-0CF7-49E4-AE5D-D237545397D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SFX_VillagerGotSick" ID="{FFD1CA92-348B-4914-B434-24572392F0B9}" ShortID="995492867">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-27</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_VillagerGotSick" ID="{21BA73EE-6A47-43F3-BB2B-481058D28338}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_VillagerGotSick.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="828133567"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_VillagerGotSick" ID="{21BA73EE-6A47-43F3-BB2B-481058D28338}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_DropObject" ID="{A96F1194-AC5F-40BA-BB53-DC9F95D0F731}" ShortID="550682103">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>94</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-24</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_DropObject" ID="{CAE2D067-0532-4D50-810A-490EF025BFEA}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_DropObject.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="439364061"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_DropObject" ID="{CAE2D067-0532-4D50-810A-490EF025BFEA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_VillagerCured" ID="{D0F93674-E273-4A99-B581-EDC6C262E48B}" ShortID="216317434">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_VillagerCured" ID="{AD2A4717-1EA3-4F41-8336-8A07333955D3}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_VillagerCured.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="498864994"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_VillagerCured" ID="{AD2A4717-1EA3-4F41-8336-8A07333955D3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="MenuMusic" ID="{CEF688B4-F2DA-4EAA-9305-F7E8432472D0}" ShortID="434698442">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MenuLoop" ID="{A0E9B8E3-FBA5-47A9-8245-2C84AA51663A}" ShortID="1001082608">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66250C91-7ED1-4451-9F39-44EBD70F38AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A66B2AC8-72F9-471F-A2A7-B4513CCADC07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MenuLoop" ID="{90DD1927-1206-4FA7-9DEB-B8A37D027484}">
+									<Language>SFX</Language>
+									<AudioFile>MenuLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="968152764"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MenuLoop" ID="{90DD1927-1206-4FA7-9DEB-B8A37D027484}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="MenuLoop" ID="{A0E9B8E3-FBA5-47A9-8245-2C84AA51663A}"/>
+					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

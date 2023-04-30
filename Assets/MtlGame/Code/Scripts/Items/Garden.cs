@@ -33,6 +33,7 @@ public class Garden : MonoBehaviour
         if (_currentItem != null)
         {
             _inventory.DropItem(_currentItem, 0);
+            AkSoundEngine.PostEvent("Play_SFX_DropObject", gameObject);
         }
 
         _inventory.AddItem(_items.GetRandomItem(), 1);
@@ -44,6 +45,7 @@ public class Garden : MonoBehaviour
         if (_secondItem != null)
         {
             _inventory.DropItem(_secondItem, 1);
+            AkSoundEngine.PostEvent("Play_SFX_DropObject", gameObject);
         }
 
         _inventory.AddItem(_items.GetRandomItem(), 1);

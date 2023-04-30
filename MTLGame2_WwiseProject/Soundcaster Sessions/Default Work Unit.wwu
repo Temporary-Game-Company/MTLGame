@@ -18,6 +18,18 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_ButtonClick" ID="{61C34826-5466-45C2-83F0-39198C4859CE}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_VillagerCured" ID="{E8625C3A-542A-4524-88A3-EE75EC4DAA0D}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_VillagerHey" ID="{6CE73068-A22A-4865-81A1-5E11378776DF}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps" ID="{CEAC49EA-5305-4DE7-B3CE-87E7C4A95A5B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -30,8 +42,32 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_DropObject" ID="{C825568C-21B7-44A5-BAE7-9F93E61C38B9}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Sniff" ID="{C1EBAEF3-B7C6-4FAC-913D-3657A99DAC75}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_VillagerGotSick" ID="{7342DD0D-BD5D-4D90-BC11-CD42A9751C80}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiances" ID="{D10B0DA5-216C-4434-A930-D5EADAF1150A}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GardenSnip" ID="{2A2026DA-DD3F-4FEB-9DF1-555920E061A1}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Chicken" ID="{9093550F-0BB0-46E2-A97C-A57D6397800A}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
