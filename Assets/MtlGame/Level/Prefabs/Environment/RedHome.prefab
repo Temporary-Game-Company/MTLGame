@@ -5120,7 +5120,7 @@ GameObject:
   - component: {fileID: 5421326874131907543}
   - component: {fileID: 5421326874131907542}
   m_Layer: 0
-  m_Name: Home1
+  m_Name: RedHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5297,7 +5297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeToRescue: 30
-  _possibleRemedies: {fileID: 11400000, guid: 5bd8a006f9201f84ca49c01137674602, type: 2}
+  _possibleRemedies: {fileID: 11400000, guid: 63568301808a6be4e887dff08ddd1a51, type: 2}
   _playerInventory: {fileID: 0}
   _helpIndicataor: {fileID: 2733568142849731800}
   _curedFeedback: {fileID: 2253274275705448805}

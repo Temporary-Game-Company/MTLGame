@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e673a9cec12c22b45a514c7d92d98b5f, type: 3}
+  m_Name: Remedies
+  m_EditorClassIdentifier: 
+  _items:
+  - {fileID: 11400000, guid: 5e9db060f7618294ca26b12424058c88, type: 2}
+  - {fileID: 11400000, guid: 08dc7c65f524ef74186d9bf336e7bab9, type: 2}
+  - {fileID: 11400000, guid: e677de00ec1b5cf48a691d140bf73272, type: 2}
+  - {fileID: 11400000, guid: 9b0ff31b33c9fcf4090073b98714a85e, type: 2}
+  - {fileID: 11400000, guid: 616aecbd78f29ae42b59fb3237c90fdf, type: 2}
+  - {fileID: 11400000, guid: b525668b7eec7d247bc8fe39b3d051c9, type: 2}
+  - {fileID: 11400000, guid: 34bb6ddb6476055438ea6b011e7d4252, type: 2}
+  - {fileID: 11400000, guid: c98ab8b4bd388184297c00e9cfd25150, type: 2}
