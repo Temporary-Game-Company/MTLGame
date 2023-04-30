@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GameOver;
 using MoreMountains.InventoryEngine;
 using MoreMountains.Feedbacks;
+using UnityEngine.UI;
+
 
 public class Home : MonoBehaviour
 {
     private bool infectionStatus = false;
     private bool liveStatus = true;
+    public Slider healthBarSlider;
+
 
     [Tooltip("Time before a sick person dies.")]
     [SerializeField] private float _timeToRescue = 0f;
@@ -44,14 +49,19 @@ public class Home : MonoBehaviour
         if(liveStatus){
             if (infectionStatus) {
                 _timeLeftToRescue -= 1*Time.deltaTime;
+                
                 if(_timeLeftToRescue<=0f){
                     Die();
                     _timeLeftToRescue=_timeToRescue;
                 }
+                
+                // Update the health bar slider based on the current _timeLeftToRescue
+                healthBarSlider.value = _timeLeftToRescue / _timeToRescue;
             }
             else {
                 _timeLeftToRescue=_timeToRescue;
             }
+        
         }
     }
 
@@ -73,7 +83,7 @@ public class Home : MonoBehaviour
     private void Die()
     {
         liveStatus = false;
-
+        GameOver.nbHouseDie += 1;
         _helpIndicataor.HelpNeeded(_deadSprite);
     }
 

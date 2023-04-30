@@ -5362,8 +5362,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -0.3600006, y: 0}
+  m_SizeDelta: {x: -10.72, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3035866172647625699
 GameObject:
@@ -5625,6 +5625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade70e7202ce5f1488f3bbd1074ef6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
   _timeToRescue: 30
   _possibleRemedies: {fileID: 11400000, guid: 5bd8a006f9201f84ca49c01137674602, type: 2}
   _playerInventory: {fileID: 0}
@@ -6110,7 +6111,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
