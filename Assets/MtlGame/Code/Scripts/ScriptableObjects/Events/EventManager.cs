@@ -10,10 +10,12 @@ public class NewBehaviourScript : MonoBehaviour
     private float infectionRate=120f;
 
     [SerializeField] List<Home> homes;
+    [SerializeField] List<GameObject> npcs;
+
     List<Home> unInfectedHomes = new List<Home>();
     public TMP_Text gameTimerText;
     private float gameTimer=0f;
-   
+    private float npcGeneration=0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,13 @@ public class NewBehaviourScript : MonoBehaviour
     {
         infectHouseRandomly();
         Timer();
+        npcGeneration += Time.deltaTime*1;
+        if(20<npcGeneration){
+            createNPC();
+            npcGeneration = 0f;
+        }
+      //    Debug.Log("AAAAAA");
+       
     }
 
     void Timer(){
@@ -34,6 +43,16 @@ public class NewBehaviourScript : MonoBehaviour
         int hours = (int)(gameTimer /3600) % 24;
         string timeString = string.Format("{0:0}:{1:00}:{2:00}",hours,minutes,seconds);
         gameTimerText.text = timeString;
+    }
+
+    void createNPC(){
+        int npcType = Random.Range(0,npcs.Count); 
+        GameObject selectedNpc = npcs[npcType];
+        int selectedNode   = Random.Range(1,7); 
+        Debug.Log(selectedNode);
+        GameObject startNode = GameObject.Find("node"+selectedNode);
+        GameObject pc = Instantiate(selectedNpc,startNode.transform.position,selectedNpc.transform.rotation) as GameObject;
+        pc.GetComponent<npc>().active=true;
     }
 
     void infectHouseRandomly(){
