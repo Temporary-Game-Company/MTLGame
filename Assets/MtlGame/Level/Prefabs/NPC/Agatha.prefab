@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 5371844209524998470}
+  _renderer: {fileID: 5371844209524998468}
   active: 0
 --- !u!95 &5371844209524998470
 Animator:

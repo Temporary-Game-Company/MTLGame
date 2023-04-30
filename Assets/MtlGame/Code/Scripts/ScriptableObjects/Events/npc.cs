@@ -5,6 +5,7 @@ using UnityEngine;
 public class npc : MonoBehaviour
 {
     [SerializeField] Animator _animator;
+    [SerializeField] SpriteRenderer _renderer;
 
     GameObject finalDestination=null;
     private int middleStepPassed=0;
@@ -20,6 +21,8 @@ public class npc : MonoBehaviour
         {
             middleNodes[i]= Random.Range(1,36);
         }
+
+        _animator.enabled = true;
     }
 
     Vector2 Difference;
@@ -46,6 +49,9 @@ public class npc : MonoBehaviour
 
             _animator.SetFloat("SpeedX", Difference.x);
             _animator.SetFloat("SpeedY", Difference.y);
+
+            if (Difference.x > 0f) _renderer.flipX = false;
+            else _renderer.flipX = true;
         }
        
     }
