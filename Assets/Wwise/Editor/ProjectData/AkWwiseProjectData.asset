@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a3616e2a215b0542a35ee38b9f03a039
     GuidInternal: 
-    m_lastTime: -8585187887593393456
+    m_lastTime: -8585187877548768240
     List:
+    - name: Play_Music
+      guid: 06f366a405e1eb4a8679ef58cddcb8e3
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3616e2a215b0542a35ee38b9f03a039
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 06f366a405e1eb4a8679ef58cddcb8e3
+      Path: Events/Default Work Unit/Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_BellRinging
       guid: dfaec5aab508dc4182cab9316c5cbb2b
       id: 2577559157

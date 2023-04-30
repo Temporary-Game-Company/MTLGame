@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2577559157	Play_SFX_BellRinging			\Default Work Unit\Play_SFX_BellRinging	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	259475316	GloomTown02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\GloomTown02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\GloomTown02		20537952
 	507247569	SFX_BellRinging	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Windows\SFX\SFX_BellRinging_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_BellRinging		970360
 

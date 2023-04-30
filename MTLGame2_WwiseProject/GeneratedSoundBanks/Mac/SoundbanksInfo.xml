@@ -9,16 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{DD3CE459-ADD4-C0B7-58B2-63E03D8D0EAF}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{7FDD987D-3DBE-F8F5-4C56-21C15B188CC8}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
+				<File Id="259475316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GloomTown02.wav</ShortName>
+					<CachePath>SFX/GloomTown02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="507247569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_BellRinging.wav</ShortName>
 					<CachePath>SFX/SFX_BellRinging_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2932040671" Name="Play_Music" DurationType="OneShot" DurationMin="116.42776" DurationMax="116.42776">
+					<MediaRefs>
+						<MediaRef Id="259475316"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2577559157" Name="Play_SFX_BellRinging" DurationType="OneShot" DurationMin="5.5" DurationMax="5.5">
 					<MediaRefs>
 						<MediaRef Id="507247569"/>
@@ -40,5 +49,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84EBDC87-3951-249A-4E3A-3F60325D884B}</FileHash>
+	<FileHash>{C4FF0CB9-8CC9-6D31-DC0C-8722435A17B2}</FileHash>
 </SoundBanksInfo>

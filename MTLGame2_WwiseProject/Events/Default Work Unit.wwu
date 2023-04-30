@@ -14,6 +14,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music" ID="{A466F306-E105-4AEB-8679-EF58CDDCB8E3}">
+					<ChildrenList>
+						<Action Name="" ID="{3FB53458-25B5-4EE9-9D3C-DE6C6C6F0C9B}" ShortID="1059168127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{E97997AD-D409-477B-892E-559E4A973AC3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{CEAC49EA-5305-4DE7-B3CE-87E7C4A95A5B}">
+					<ChildrenList>
+						<Action Name="" ID="{EE2A02B0-63FB-42C6-919B-D79DB76118BB}" ShortID="892645369">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{37E6D8AE-4367-4CDA-B6C0-BADADCEC2DF3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rats" ID="{9EF26D0A-42A3-45B5-B074-AB03084002E3}">
+					<ChildrenList>
+						<Action Name="" ID="{DC1A971C-69FB-4BC4-96F4-DA2029E90F65}" ShortID="89604521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rats" ID="{DBF4DD7D-859C-4E29-8B9F-26C8B361B13F}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Aerial_v01a" ID="{8F0A1502-9DC0-40C5-97EC-DB1B36D21B30}">
+					<ChildrenList>
+						<Action Name="" ID="{9B3B427C-5874-4FA5-8401-C763D5BB0AF3}" ShortID="728016913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Aerial_v01a" ID="{9A3D61C8-49FC-4043-8006-6F49E29506B3}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_Loop01" ID="{6CE5D7AC-1D7D-4B5A-BC65-14C518F43516}">
+					<ChildrenList>
+						<Action Name="" ID="{0A2F9134-3304-44BA-B6D7-8D67710C60BC}" ShortID="137413580">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Loop01" ID="{9ED84FFC-9EA5-473E-BA70-A5A0D8AFC039}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}">
+					<ChildrenList>
+						<Action Name="" ID="{4EEDC887-F2C1-4C73-AF71-E51D4E9B2B17}" ShortID="147645996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUp" ID="{BE380043-F7C5-4BBD-9389-F13BA96614AF}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}">
+					<ChildrenList>
+						<Action Name="" ID="{9319D8E0-C608-4B3D-9AA0-BC95A5F9970B}" ShortID="140990967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Crafting" ID="{48809767-290E-49F4-B22A-EB629882136F}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_FryingFood01" ID="{965FD6B7-28F4-4F1E-96B5-8C2792A0FB3C}">
+					<ChildrenList>
+						<Action Name="" ID="{732B8393-35AB-4166-A9DA-EB00C70AE0DB}" ShortID="801885480">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_FryingFood01" ID="{E5389063-D3A2-45CD-9EFF-7B7CBC5DAFDF}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_LiquidPouring" ID="{E6E0B568-DB76-4C6B-B25E-C2B1B581DB59}">
+					<ChildrenList>
+						<Action Name="" ID="{B9A43A4F-4A1A-4F89-BBF3-E444BB2AE872}" ShortID="251986117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_LiquidPouring" ID="{EEE09DF6-218D-4521-BE40-A75D57DE196C}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
