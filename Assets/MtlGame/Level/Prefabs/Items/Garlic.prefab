@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 8828091580989390056}
   - component: {fileID: 8917726372578214432}
   m_Layer: 0
-  m_Name: Remedy
+  m_Name: Garlic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,7 +621,7 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bae61d10d2c002f4cb905e0d07d190ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: be7fea24bba8de14bb818b5de73bde5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
