@@ -5247,6 +5247,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
+  _buttonPrompt: {fileID: 0}
   RequiresKey: 0
   KeyID: 
   KeyAction:
@@ -5692,6 +5693,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
+  _buttonPrompt: {fileID: 0}
 --- !u!1 &8720486813484613126
 GameObject:
   m_ObjectHideFlags: 0
