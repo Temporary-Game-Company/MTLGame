@@ -384,6 +384,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Amb_Loop01" ID="{1C70D1C1-968E-4E00-B86C-302CFBBEDE94}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.185806451612903"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.139354838709679"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Amb_Loop01.wav</AudioFile>
 							<MediaIDList>
@@ -419,6 +424,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="AMB_Aerial_v01a" ID="{B0611E3C-8E15-4239-81ED-9075D8CBD7E7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.106451612903226"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0496774193548388"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>AMB_Aerial_v01a.wav</AudioFile>
 							<MediaIDList>
@@ -1340,6 +1350,11 @@
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-21</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

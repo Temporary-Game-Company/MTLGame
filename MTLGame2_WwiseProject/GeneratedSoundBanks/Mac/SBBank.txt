@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1265037602	Play_SFX_Sniff			\Default Work Unit\Play_SFX_Sniff	
 	2239798495	Play_SFX_Chicken			\Default Work Unit\Play_SFX_Chicken	
 	2385941226	Play_Rats			\Default Work Unit\Play_Rats	
+	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
 	2577559157	Play_SFX_BellRinging			\Default Work Unit\Play_SFX_BellRinging	
 	2770409516	Play_SFX_DropObject			\Default Work Unit\Play_SFX_DropObject	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
@@ -30,7 +31,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	297426163	SFX_Leech01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Leech01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Leech\SFX_Leech01		67932
 	301483348	SFX_Leech02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Leech02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Leech\SFX_Leech02		70928
 	316522876	SFX_Chicken05	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Chicken05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chicken\SFX_Chicken05		198612
-	333839857	Amb_Loop01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\Amb_Loop01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Loop01		2116960
+	333839857	Amb_Loop01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\Amb_Loop01_5AD0E3EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Loop01		2116960
 	392596253	SFX_VillagerHey08	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_VillagerHey08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_VillagerHey\SFX_VillagerHey08		62720
 	392709983	SFX_Sniff04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff04		121432
 	425236382	SFX_Rat04	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat04		77336
@@ -63,7 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	958897491	FS_Dirt_03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FS_Dirt_03		43464
 	963326854	SFX_Rat03	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Rat03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\SFX_Rat03		90472
 	968152764	MenuLoop	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\MenuLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MenuMusic\MenuLoop		1512256
-	1017560216	AMB_Aerial_v01a	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\AMB_Aerial_v01a_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Aerial_v01a		970296
+	1017560216	AMB_Aerial_v01a	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\AMB_Aerial_v01a_E4539281.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Aerial_v01a		970296
 	1051148966	SFX_Snip02	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Snip02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_GardenSnip\SFX_Snip02		32412
 	1057611068	SFX_Sniff06	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff06		176560
 	1068690051	SFX_Sniff01	Y:\Documents\GitHub\MTLGame2\MTLGame2_WwiseProject\.cache\Mac\SFX\SFX_Sniff01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Sniff\SFX_Sniff01		99388

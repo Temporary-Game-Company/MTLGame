@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{883F7FA7-35D9-7423-9A00-7A3A238D59F3}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{6C89786D-6B02-8CC6-DEC9-322D2CE96170}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
@@ -59,7 +59,7 @@
 				</File>
 				<File Id="333839857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Loop01.wav</ShortName>
-					<CachePath>SFX/Amb_Loop01_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Amb_Loop01_5AD0E3EC.wem</CachePath>
 				</File>
 				<File Id="392596253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey08.wav</ShortName>
@@ -191,7 +191,7 @@
 				</File>
 				<File Id="1017560216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Aerial_v01a.wav</ShortName>
-					<CachePath>SFX/AMB_Aerial_v01a_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Aerial_v01a_E4539281.wem</CachePath>
 				</File>
 				<File Id="1051148966" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Snip02.wav</ShortName>
@@ -219,6 +219,11 @@
 						<MediaRef Id="617972286"/>
 						<MediaRef Id="735011620"/>
 						<MediaRef Id="958897491"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2570041344" Name="Play_MenuMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="968152764"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
@@ -351,5 +356,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D39D3F69-7ABF-827A-5406-A3E0CB0EE1A1}</FileHash>
+	<FileHash>{D487DE7F-0601-AEE0-AC87-D4B56E401053}</FileHash>
 </SoundBanksInfo>

@@ -11,4 +11,9 @@ public class FootstepsAudio : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Footsteps", gameObject);
     }
 
+    public void MenuClick()
+    {
+        AkSoundEngine.PostEvent("Play_Footsteps", gameObject);
+    }
+
 }
