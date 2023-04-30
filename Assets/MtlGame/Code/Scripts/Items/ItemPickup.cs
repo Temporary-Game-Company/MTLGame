@@ -24,6 +24,8 @@ public class ItemPickup : MonoBehaviour
         if (_currentItem != null)
         {
             _inventory.DropItem(_currentItem, 0);
+            AkSoundEngine.PostEvent("Play_SFX_DropObject", gameObject);
+
         }
 
         _inventory.AddItem(_item, 1);

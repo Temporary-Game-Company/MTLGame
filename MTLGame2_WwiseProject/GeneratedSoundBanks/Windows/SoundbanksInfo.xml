@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{F5B5274E-1359-3927-044A-5E692988991D}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{883F7FA7-35D9-7423-9A00-7A3A238D59F3}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
@@ -73,9 +73,17 @@
 					<ShortName>SFX_Rat04.wav</ShortName>
 					<CachePath>SFX/SFX_Rat04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="439364061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DropObject.wav</ShortName>
+					<CachePath>SFX/SFX_DropObject_10C4C929.wem</CachePath>
+				</File>
 				<File Id="440753058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey06.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498864994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerCured.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerCured_10C4C929.wem</CachePath>
 				</File>
 				<File Id="499401325" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Leech03.wav</ShortName>
@@ -117,6 +125,10 @@
 					<ShortName>SFX_Sniff05.wav</ShortName>
 					<CachePath>SFX/SFX_Sniff05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="755769483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ButtonClick.wav</ShortName>
+					<CachePath>SFX/SFX_ButtonClick_10C4C929.wem</CachePath>
+				</File>
 				<File Id="802140775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey07.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey07_10C4C929.wem</CachePath>
@@ -125,6 +137,10 @@
 					<ShortName>SFX_VillagerHey02.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="828133567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_VillagerGotSick.wav</ShortName>
+					<CachePath>SFX/SFX_VillagerGotSick_10C4C929.wem</CachePath>
+				</File>
 				<File Id="843669517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_LiquidPouring.wav</ShortName>
 					<CachePath>SFX/SFX_LiquidPouring_10C4C929.wem</CachePath>
@@ -132,6 +148,10 @@
 				<File Id="844330494" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Crafting.wav</ShortName>
 					<CachePath>SFX/SFX_Crafting_10C4C929.wem</CachePath>
+				</File>
+				<File Id="851125579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlaguePlease_v3.wav</ShortName>
+					<CachePath>SFX/PlaguePlease_v3_D332EE63.wem</CachePath>
 				</File>
 				<File Id="860551974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey09.wav</ShortName>
@@ -164,6 +184,10 @@
 				<File Id="963326854" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Rat03.wav</ShortName>
 					<CachePath>SFX/SFX_Rat03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968152764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuLoop.wav</ShortName>
+					<CachePath>SFX/MenuLoop_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="1017560216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Aerial_v01a.wav</ShortName>
@@ -199,6 +223,7 @@
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="851125579"/>
 						<MediaRef Id="873847301"/>
 					</MediaRefs>
 				</Event>
@@ -221,6 +246,11 @@
 						<MediaRef Id="507247569"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="395357022" Name="Play_SFX_ButtonClick" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="755769483"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2239798495" Name="Play_SFX_Chicken" DurationType="OneShot" DurationMin="0.479161" DurationMax="1.1250113">
 					<MediaRefs>
 						<MediaRef Id="77792134"/>
@@ -233,6 +263,11 @@
 				<Event Id="4233537492" Name="Play_SFX_Crafting" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="844330494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2770409516" Name="Play_SFX_DropObject" DurationType="OneShot" DurationMin="0.7708163" DurationMax="0.7708163">
+					<MediaRefs>
+						<MediaRef Id="439364061"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4038676508" Name="Play_SFX_FryingFood01" DurationType="OneShot" DurationMin="1.3749887" DurationMax="1.3749887">
@@ -268,6 +303,25 @@
 						<MediaRef Id="1068690051"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="723141557" Name="Play_SFX_VillagerCured" DurationType="OneShot" DurationMin="2.75" DurationMax="2.75">
+					<MediaRefs>
+						<MediaRef Id="498864994"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="857508468" Name="Play_SFX_VillagerGotSick" DurationType="OneShot" DurationMin="2.75" DurationMax="2.75">
+					<MediaRefs>
+						<MediaRef Id="60872316"/>
+						<MediaRef Id="284213057"/>
+						<MediaRef Id="392596253"/>
+						<MediaRef Id="440753058"/>
+						<MediaRef Id="689375119"/>
+						<MediaRef Id="802140775"/>
+						<MediaRef Id="828005797"/>
+						<MediaRef Id="828133567"/>
+						<MediaRef Id="860551974"/>
+						<MediaRef Id="913827179"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3992128610" Name="Play_SFX_VillagerHey" DurationType="OneShot" DurationMin="0.32564625" DurationMax="0.41489795">
 					<MediaRefs>
 						<MediaRef Id="60872316"/>
@@ -297,5 +351,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{89DE68AE-2B19-67A7-C4FE-A654A625B820}</FileHash>
+	<FileHash>{D39D3F69-7ABF-827A-5406-A3E0CB0EE1A1}</FileHash>
 </SoundBanksInfo>

@@ -164,6 +164,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_ButtonClick" ID="{61C34826-5466-45C2-83F0-39198C4859CE}">
+					<ChildrenList>
+						<Action Name="" ID="{977A52F4-2B1A-490B-8D73-1D59F019CA46}" ShortID="363285214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ButtonClick" ID="{5A352A29-5D6C-4023-995D-09F0E1099B2A}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_VillagerGotSick" ID="{7342DD0D-BD5D-4D90-BC11-CD42A9751C80}">
+					<ChildrenList>
+						<Action Name="" ID="{2FC574AB-7435-4A3B-B1E2-28714495B144}" ShortID="415632879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_VillagerGotSick" ID="{FFD1CA92-348B-4914-B434-24572392F0B9}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47AC65C5-7684-4D78-92F4-C6EF6F41573E}" ShortID="478249374">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_VillagerHey" ID="{0EA46FF9-C13E-4B7B-AC4B-D992C5F3F963}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_DropObject" ID="{C825568C-21B7-44A5-BAE7-9F93E61C38B9}">
+					<ChildrenList>
+						<Action Name="" ID="{3F8C59D5-78C3-4DA2-952E-E5C2E1519BAE}" ShortID="876602163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_DropObject" ID="{A96F1194-AC5F-40BA-BB53-DC9F95D0F731}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_VillagerCured" ID="{E8625C3A-542A-4524-88A3-EE75EC4DAA0D}">
+					<ChildrenList>
+						<Action Name="" ID="{BD43B1FC-1E4F-43F2-A2A2-8FEF5FD584EA}" ShortID="922156176">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_VillagerCured" ID="{D0F93674-E273-4A99-B581-EDC6C262E48B}" WorkUnitID="{2C99C0E0-EDFC-4619-95D5-AC61F6454444}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
