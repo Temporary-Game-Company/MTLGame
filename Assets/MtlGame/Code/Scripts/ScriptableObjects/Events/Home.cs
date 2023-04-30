@@ -45,11 +45,6 @@ public class Home : MonoBehaviour
             passedTimeForRescue=0f;
             }
         }
-
-        if(infectionStatus){
-            Debug.Log("I am "+transform.name+ "and infected");
-        }
-      
     }
 
     public bool isInfected(){
