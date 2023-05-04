@@ -23674,6 +23674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782491842}
   - component: {fileID: 782491843}
+  - component: {fileID: 782491844}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -23708,8 +23709,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aacd7de6209c264a931cdfb2ef9e7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeToFirstInfection: 5
-  infectionRate: 10
+  _selector: {fileID: 782491844}
+  _timeToFirstInfection: 15
+  infectionRate: 25
+  _npcSpawnTime: 5
   homes:
   - {fileID: 882625396}
   - {fileID: 1231695010}
@@ -23719,7 +23722,23 @@ MonoBehaviour:
   npcs:
   - {fileID: 5371844209524998473, guid: 5401e5afbed0e3b4cb6f358d506af1c0, type: 3}
   - {fileID: 2242796593810522017, guid: eb29c16180aad1146a84d523cdb756f2, type: 3}
+  - {fileID: 1929060917422279074, guid: 8708881ab94e3e0478c5e76fcf783f76, type: 3}
   gameTimerText: {fileID: 964384643}
+--- !u!114 &782491844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782491841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316ab92be1a09414daadf97f5d5d2a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelName: MainMenu
+  DoNotUseLevelManager: 0
+  DestroyPersistentCharacter: 0
 --- !u!1 &782725901
 GameObject:
   m_ObjectHideFlags: 0
@@ -27537,7 +27556,7 @@ PrefabInstance:
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99963886
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -28636,7 +28655,7 @@ PrefabInstance:
     - target: {fileID: 224419649234339082, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -8
+      value: -8.000122
       objectReference: {fileID: 0}
     - target: {fileID: 224428629580308236, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -38142,11 +38161,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
-  m_AssetsPPU: 16
-  m_RefResolutionX: 480
-  m_RefResolutionY: 270
+  m_AssetsPPU: 32
+  m_RefResolutionX: 960
+  m_RefResolutionY: 540
   m_CropFrame: 4
-  m_GridSnapping: 0
+  m_GridSnapping: 1
   m_FilterMode: 0
   m_UpscaleRT: 0
   m_PixelSnapping: 0

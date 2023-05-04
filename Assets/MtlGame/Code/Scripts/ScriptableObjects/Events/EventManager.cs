@@ -4,11 +4,15 @@ using UnityEngine;
 using System.Runtime;
 using UnityEngine.UI;
 using TMPro;
+using MoreMountains.TopDownEngine;
 
 public class EventManager : MonoBehaviour
 {
+    [SerializeField] LevelSelector _selector;
     [SerializeField] private float _timeToFirstInfection = 5f;
     [SerializeField] private float infectionRate = 120f;
+
+    [SerializeField] private float _npcSpawnTime;
 
     private float _timeToInfection;
 
@@ -33,7 +37,7 @@ public class EventManager : MonoBehaviour
         infectHouseRandomly();
         Timer();
         npcGeneration += Time.deltaTime*1;
-        if(20<npcGeneration){
+        if(_npcSpawnTime<npcGeneration){
             createNPC();
             npcGeneration = 0f;
         }
@@ -74,6 +78,7 @@ public class EventManager : MonoBehaviour
 
     void checkUnInfectedHomes(){
          unInfectedHomes = new List<Home>();
+        List<Home> aliveOnes = new List<Home>();
 
          foreach (var home in homes)
         {
@@ -81,7 +86,13 @@ public class EventManager : MonoBehaviour
             {
                unInfectedHomes.Add(home);
             }
+            if (home.isAlive()) aliveOnes.Add(home);
         }
-       
+       if (aliveOnes.Count == 0) Lose();
+    }
+
+    private void Lose()
+    {
+        _selector.GoToLevel();
     }
 }
