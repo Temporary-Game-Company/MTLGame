@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{40C8397E-0190-03C0-D492-A88DAA890A2F}">
+		<SoundBank Id="421627612" Type="User" Language="SFX" Hash="{C725AB6B-5F9A-544C-4F19-C1BB4CE36785}">
 			<ShortName>SBBank</ShortName>
 			<Path>SBBank.bnk</Path>
 			<Media>
@@ -85,6 +85,10 @@
 					<ShortName>SFX_Rat04.wav</ShortName>
 					<CachePath>SFX/SFX_Rat04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="428579636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DeathScream1.wav</ShortName>
+					<CachePath>SFX/SFX_DeathScream1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="439364061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_DropObject.wav</ShortName>
 					<CachePath>SFX/SFX_DropObject_10C4C929.wem</CachePath>
@@ -92,6 +96,10 @@
 				<File Id="440753058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_VillagerHey06.wav</ShortName>
 					<CachePath>SFX/SFX_VillagerHey06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="455298138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_PickUpNew.wav</ShortName>
+					<CachePath>SFX/SFX_PickUpNew_10C4C929.wem</CachePath>
 				</File>
 				<File Id="499401325" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Leech03.wav</ShortName>
@@ -209,10 +217,6 @@
 					<ShortName>SFX_Snip01.wav</ShortName>
 					<CachePath>SFX/SFX_Snip01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="950619938" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_PickUp1.wav</ShortName>
-					<CachePath>SFX/SFX_PickUp1_10C4C929.wem</CachePath>
-				</File>
 				<File Id="958897491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_03.wav</ShortName>
 					<CachePath>SFX/FS_Dirt_03_10C4C929.wem</CachePath>
@@ -285,9 +289,9 @@
 						<MediaRef Id="873847301"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3860455926" Name="Play_PickUp" DurationType="OneShot" DurationMin="0.14030775" DurationMax="0.44544935">
+				<Event Id="3860455926" Name="Play_PickUp" DurationType="OneShot" DurationMin="0.570839" DurationMax="0.570839">
 					<MediaRefs>
-						<MediaRef Id="950619938"/>
+						<MediaRef Id="455298138"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2385941226" Name="Play_Rats" DurationType="OneShot" DurationMin="0.43750566" DurationMax="0.6249887">
@@ -321,6 +325,11 @@
 				<Event Id="4233537492" Name="Play_SFX_Crafting" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="844330494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1381239611" Name="Play_SFX_DeathScream" DurationType="OneShot" DurationMin="2.4961545" DurationMax="4.0409856">
+					<MediaRefs>
+						<MediaRef Id="428579636"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2770409516" Name="Play_SFX_DropObject" DurationType="OneShot" DurationMin="0.7708163" DurationMax="0.7708163">
@@ -412,7 +421,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2B0BF3C2-FFC2-8C35-CB7E-74BD9D1E185B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -422,9 +431,11 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1502772432" Name="SFX Bus"/>
+				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3EE83E5B-FD33-6A27-FA4E-F05CA67A0401}</FileHash>
+	<FileHash>{566765BE-3A02-7A70-B41C-524C8199D5A4}</FileHash>
 </SoundBanksInfo>

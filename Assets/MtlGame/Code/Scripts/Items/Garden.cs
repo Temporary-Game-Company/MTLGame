@@ -37,7 +37,8 @@ public class Garden : MonoBehaviour
         }
 
         _inventory.AddItem(_items.GetRandomItem(), 1);
-        AkSoundEngine.PostEvent("Play_SFX_GardenSnip", gameObject); //This plays the rat SFX, ideally it would be the garden snip SFX
+        AkSoundEngine.PostEvent("Play_SFX_GardenSnip", gameObject); 
+        AkSoundEngine.PostEvent("Play_PickUp", gameObject);
     }
 
     public void GetSecondItem()
@@ -49,6 +50,6 @@ public class Garden : MonoBehaviour
         }
 
         _inventory.AddItem(_items.GetRandomItem(), 1);
-        AkSoundEngine.PostEvent("Play_SFX_LiquidPouring", gameObject); //This plays the liquid pouring SFX, ideally it would be the object swap SFX
+        AkSoundEngine.PostEvent("Play_SFX_LiquidPouring", gameObject);
     }
 }

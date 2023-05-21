@@ -77,6 +77,14 @@
 							<ObjectRef Name="Play_SFX_Crafting" ID="{D28E75EB-D027-4323-A049-486338CCB576}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_DeathScream" ID="{4772814B-CAE8-493B-9BCA-807006C20F8E}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PickUp" ID="{AF132674-5FD9-4024-BB9F-B28438FA2F1B}" WorkUnitID="{2A6E61A3-5B21-4205-A35E-E38B9F03A039}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
