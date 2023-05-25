@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BUTTONCLICK = 395357022U;
         static const AkUniqueID PLAY_SFX_CHICKEN = 2239798495U;
         static const AkUniqueID PLAY_SFX_CRAFTING = 4233537492U;
+        static const AkUniqueID PLAY_SFX_DEATHSCREAM = 1381239611U;
         static const AkUniqueID PLAY_SFX_DROPOBJECT = 2770409516U;
         static const AkUniqueID PLAY_SFX_FRYINGFOOD01 = 4038676508U;
         static const AkUniqueID PLAY_SFX_GARDENSNIP = 371496061U;
@@ -45,6 +46,8 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC_BUS = 3127962312U;
+        static const AkUniqueID SFX_BUS = 1502772432U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

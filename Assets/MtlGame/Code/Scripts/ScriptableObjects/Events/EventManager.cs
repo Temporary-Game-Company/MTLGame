@@ -87,6 +87,7 @@ public class EventManager : MonoBehaviour
                unInfectedHomes.Add(home);
             }
             if (home.isAlive()) aliveOnes.Add(home);
+            AkSoundEngine.PostEvent("Play_SFX_VillagerHey", gameObject);
         }
        if (aliveOnes.Count == 0) Lose();
     }

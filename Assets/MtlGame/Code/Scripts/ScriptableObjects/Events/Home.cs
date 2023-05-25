@@ -77,6 +77,7 @@ public class Home : MonoBehaviour
         liveStatus = false;
 
         _helpIndicataor.HelpNeeded(_deadSprite);
+        AkSoundEngine.PostEvent("Play_SFX_DeathScream", gameObject);
     }
 
     // Feedback and internal for when home is cured.

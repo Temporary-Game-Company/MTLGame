@@ -29,5 +29,6 @@ public class ItemPickup : MonoBehaviour
         }
 
         _inventory.AddItem(_item, 1);
+        AkSoundEngine.PostEvent("Play_PickUp", gameObject);
     }
 }
