@@ -25,6 +25,8 @@ public class Home : MonoBehaviour
     [SerializeField] private HelpIndicator _helpIndicataor;
 
     [SerializeField] private MMFeedback _curedFeedback;
+    [SerializeField] private MMFeedback _cureFailedFeedback;
+    [SerializeField] private MMFeedback _sicknessParticles;
 
 
     [Tooltip("The sprite for when dead.")]
@@ -69,7 +71,7 @@ public class Home : MonoBehaviour
         SetRemedy();
         _helpIndicataor.HelpNeeded(_remedyNeeded.Icon);
         AkSoundEngine.PostEvent("Play_SFX_VillagerGotSick", gameObject);
-
+        _sicknessParticles.Play(transform.position);
     }
 
     private void Die()
@@ -78,6 +80,7 @@ public class Home : MonoBehaviour
 
         _helpIndicataor.HelpNeeded(_deadSprite);
         AkSoundEngine.PostEvent("Play_SFX_DeathScream", gameObject);
+        _sicknessParticles.Stop(transform.position);
     }
 
     // Feedback and internal for when home is cured.
@@ -87,6 +90,7 @@ public class Home : MonoBehaviour
 
         _helpIndicataor.Cured();
         _curedFeedback.Play(transform.position);
+        _sicknessParticles.Stop(transform.position);
     }
 
     // Sets a random remedy needed 
@@ -97,12 +101,19 @@ public class Home : MonoBehaviour
     }
 
     public void cure(){
-        Debug.Log("Reached");
         InventoryItem playerItem = _playerInventory.Content[0];
 
-        if(playerItem.ItemID.Equals(_remedyNeeded.ItemID) && liveStatus && infectionStatus){
-            AkSoundEngine.PostEvent("Play_SFX_VillagerCured", gameObject);
-            disinfectHome();
+        if (liveStatus && infectionStatus)
+        {
+            if (playerItem && playerItem.ItemID.Equals(_remedyNeeded.ItemID)) 
+            {
+                AkSoundEngine.PostEvent("Play_SFX_VillagerCured", gameObject);
+                disinfectHome();
+            }
+            else
+            {
+                _cureFailedFeedback.Play(transform.position);
+            }
         }
     }
 
